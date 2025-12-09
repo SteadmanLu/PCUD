@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steadzys Wheel</title>
+    <link rel="stylesheet" href="./wheel.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-section">
+            <div class="ascii-title">    ███████╗████████╗███████╗ █████╗ ██████╗ ███████╗██╗   ██╗███████╗    ██╗    ██╗██╗  ██╗███████╗███████╗██╗     
+    ██╔════╝╚══██╔══╝██╔════╝██╔══██╗██╔══██╗╚══███╔╝╚██╗ ██╔╝██╔════╝    ██║    ██║██║  ██║██╔════╝██╔════╝██║     
+    ███████╗   ██║   █████╗  ███████║██║  ██║  ███╔╝  ╚████╔╝ ███████╗    ██║ █╗ ██║███████║█████╗  █████╗  ██║     
+    ╚════██║   ██║   ██╔══╝  ██╔══██║██║  ██║ ███╔╝    ╚██╔╝  ╚════██║    ██║███╗██║██╔══██║██╔══╝  ██╔══╝  ██║     
+    ███████║   ██║   ███████╗██║  ██║██████╔╝███████╗   ██║   ███████║    ╚███╔███╔╝██║  ██║███████╗███████╗███████╗
+    ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝   ╚═╝   ╚══════╝     ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝</div>
+            <div class="subtitle">WIN TRACKER EDITION</div>
+            <div class="creator">✨ Created with pride by STEADS CORPS ✨</div>
+        </div>
+
+        <div class="main-menu">
+            <h2 class="menu-title">📋 MAIN MENU 📋</h2>
+            <div class="menu-options">
+                <button class="menu-option" onclick="spinWheel()">🎡 Spin the Wheel</button>
+                <button class="menu-option" onclick="viewStats()">📊 View Win Statistics</button>
+                <button class="menu-option" onclick="displayChoices()">📋 Display All Choices</button>
+                <button class="menu-option" onclick="showChart()">📈 Show Probability Chart</button>
+                <button class="menu-option" onclick="showAddChoiceModal()">➕ Add Custom Choice</button>
+                <button class="menu-option" onclick="resetWins()">🔄 Reset Win Counts</button>
+                <button class="menu-option" onclick="showExportImport()">💾 Export/Import Data</button>
+                <button class="menu-option" onclick="showSettings()">⚙️ Settings</button>
+            </div>
+        </div>
+
+        <div id="content-area"></div>
+    </div>
+
+    <!-- Add Choice Modal -->
+    <div id="addChoiceModal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('addChoiceModal')">&times;</button>
+            <div class="modal-header">➕ ADD NEW CHOICE ➕</div>
+            <div class="form-group">
+                <label for="choiceName">Choice Name:</label>
+                <input type="text" id="choiceName" placeholder="Enter choice name">
+            </div>
+            <div class="form-group">
+                <label for="choiceWeight">Weight (higher = more likely):</label>
+                <input type="number" id="choiceWeight" min="0.1" step="0.1" value="1">
+            </div>
+            <button class="btn btn-success" onclick="addChoice()">Add Choice</button>
+            <button class="btn btn-danger" onclick="closeModal('addChoiceModal')">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Export/Import Modal -->
+    <div id="exportImportModal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('exportImportModal')">&times;</button>
+            <div class="modal-header">💾 EXPORT/IMPORT DATA 💾</div>
+            <div class="form-group">
+                <label>Export Data (Copy this):</label>
+                <textarea id="exportData" rows="6" readonly></textarea>
+                <button class="btn btn-primary" onclick="copyExportData()">Copy to Clipboard</button>
+            </div>
+            <div class="form-group">
+                <label>Import Data (Paste here):</label>
+                <textarea id="importData" rows="6" placeholder="Paste exported data here"></textarea>
+                <button class="btn btn-success" onclick="importData()">Import Data</button>
+            </div>
+            <button class="btn btn-danger" onclick="closeModal('exportImportModal')">Close</button>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal('settingsModal')">&times;</button>
+            <div class="modal-header">⚙️ SETTINGS MENU ⚙️</div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="confettiEnabled" checked> Enable Confetti Effects
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="spinDuration">Spin Duration (seconds):</label>
+                <input type="range" id="spinDuration" min="2" max="10" value="5" step="0.5">
+                <span id="spinDurationValue">5s</span>
+            </div>
+            <button class="btn btn-primary" onclick="saveSettings()">Save Settings</button>
+            <button class="btn btn-danger" onclick="closeModal('settingsModal')">Cancel</button>
+        </div>
+    </div>
+
+    <div class="confetti" id="confetti"></div>
+    <script src="./wheel.js"></script>
+</body>
+</html>

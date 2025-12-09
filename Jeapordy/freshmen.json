@@ -1,0 +1,68 @@
+{
+    "categories": [
+      {
+        "name": "Movie Night Trivia",
+        "questions": [
+          { "value": 100, "question": "The Number of Brad Pitt movies we have watched on movie night.", "answer": "What is 3?" },
+          { "value": 200, "question": "The movie that started Friday movie nights.", "answer": "What is Terrifier?" },
+          { "value": 300, "question": "Overall least enjoyed movie from movie night.", "answer": "What is Snatch?" },
+          { "value": 400, "question": "The movie Jaiden crashed out defending.", "answer": "What is Social Network?" },
+          { "value": 500, "question": "The List of all Movies we have watched for movie nights, including before the wheel.", "answer": "What is Terrifier, Pitch Perfect, Fight Club, Scott Pilgrim Vs the World, Oldboy, Snatch, Se7en, and Uncut Gems?" }
+        ]
+      },
+      {
+        "name": "Fight Club",
+        "questions": [
+          { "value": 100, "question": "This is the first rule of Fight Club.", "answer": "What is \"You do not talk about Fight Club\"?" },
+          { "value": 200, "question": "The narrator’s insomnia leads him to attend these types of events.", "answer": "What are support groups?" },
+          { "value": 300, "question": "Name the anarchist alter ego of the narrator.", "answer": "Who is Tyler Durden?" },
+          { "value": 400, "question": "This product, handcrafted by Tyler Durden, is sold at high-end department stores but also doubles as a key ingredient in homemade explosives.", "answer": "What is soap?" },
+          { "value": 500, "question": "Tyler Durden makes soap using this… highly personal ingredient", "answer": "What is human fat?", "doubleJeopardy": true }
+        ]
+      },
+      {
+        "name": "Scott Pilgrim Vs The World",
+        "questions": [
+          { "value": 100, "question": "Scott must defeat this many evil exes to date Ramona.", "answer": "What is Seven?" },
+          { "value": 200, "question": "The person who joined us for this movie but normally isn't there", "answer": "Who is Zack?" },
+          { "value": 300, "question": "This band serves as the musical alter ego of Scott and friends", "answer": "What is Sex Bob-Omb?" },
+          { "value": 400, "question": "Scott unlocks the “Power of Love” sword after doing this.", "answer": "What is apologizing / owning up to his mistakes?" },
+          { "value": 500, "question": "Scott’s high school girlfriend who gets absolutely done dirty.", "answer": "Who is Knives Chau?" }
+        ]
+      },
+      {
+        "name": "OldBoy",
+        "questions": [
+          { "value": 100, "question": "The main character is imprisoned for this many years before being released.", "answer": "What is 15 years?" },
+          { "value": 200, "question": "The type of film that was vetoed before Oldboy was selected.", "answer": "What is Anime?" },
+          { "value": 300, "question": "Dae-su eats this creature live on camera", "answer": "What is a live octopus?" },
+          { "value": 400, "question": "The villain gives Dae-su this item in a gift box, triggering the reveal that unravels his sanity.", "answer": "What is a photo album / scrapbook?", "doubleJeopardy": true },
+          { "value": 500, "question": "The villain orchestrates the entire plot as revenge for this reason", "answer": "What is the protagonist revealed a secret that led to his sister’s suicide?" }
+        ]
+      },
+      {
+        "name": "Se7en",
+        "questions": [
+          { "value": 100, "question": "The film’s seven murders are based on these.", "answer": "What are the seven deadly sins?" },
+          { "value": 200, "question": "The sin that represents the murder of Brad Pitts wife.", "answer": "What is envy?" },
+          { "value": 300, "question": "The victim of the Gluttony murder was force-fed this substance until he died.", "answer": "What is spaghetti?" },
+          { "value": 400, "question": "The sloth victim gives the detectives a jump scare by doing this.", "answer": "What is suddenly gasping / being alive after a year of torture?" },
+          { "value": 500, "question": "In the final scene, Detective Somerset quotes this famous author when asked if he’ll stay on the force “The world is a fine place and worth fighting for... I agree with the second part.”", "answer": "Who is Ernest Hemingway?" }
+        ]
+      },
+      {
+        "name": "Uncut Gems",
+        "questions": [
+          { "value": 100, "question": "Howard bets big on this rare gemstone smuggled from Ethiopia.", "answer": "What is a black opal?" },
+          { "value": 200, "question": "This NBA star plays a fictional version of himself and becomes fixated on the opal.", "answer": "Who is Kevin Garnett?" },
+          { "value": 300, "question": "Howard’s jewelry store is located in this iconic Manhattan location.", "answer": "What is the Diamond District?" },
+          { "value": 400, "question": "Howard hides inside this place during a critical moment.", "answer": "What is a bulletproof glass security door / showroom?" },
+          { "value": 500, "question": "Howard’s final bet involves this specific sports event.", "answer": "What is a Celtics playoff game / Game 7?" }
+        ]
+      }
+    ],
+    "finalJeopardy": {
+      "question": "The common thread over the last 5 categories 'Fight Club, Scott Pilgrim vs the World, OldBoy, Se7en, Uncut Gems'",
+      "answer": "What is each members first movie?"
+    }
+  }  
