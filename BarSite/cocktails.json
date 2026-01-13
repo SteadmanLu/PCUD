@@ -1,0 +1,445 @@
+{
+    "cocktails": [
+        {
+            "name": "Old Fashioned",
+            "type": "Cocktail",
+            "flavor": ["Boozy", "Slightly Sweet", "Citrusy"],
+            "ingredients": ["2oz Bourbon or rye Whiskey", "1 Sugar Cube", "2-3 Dashes Angostura Bitters", "Orange Twist"],
+            "mix": "Muddle the sugar cube and bitters in a glass. Add whiskey and stir to combine add ice. Express an orange twist orver glass and drop it in."
+        },
+        {
+            "name": "Whiskey Sour",
+            "type": "Cocktail",
+            "flavor": ["Tart", "Bright", "Balanced"],
+            "ingredients": ["2oz Bourbon", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "0.5oz Egg White", "Cherry or Lemon Twist to Garnish"],
+            "mix": "Stir al ingredients with ice in a glass until chilled. Strain into a martini glass. Garnish with a cherry."
+        },
+        {
+            "name": "Manhattan",
+            "type": "Cocktail",
+            "flavor": ["Strong", "Rich", "Slightly Sweet"],
+            "ingredients": ["2oz Whiskey", "1oz Sweet Vermouth", "2 Dashes Angostura Bitters", "1 Cherry"],
+            "mix": "Stir al ingredients with ice in a glass until chilled. Strain into a martini glass. Garnish with a cherry."
+        },
+        {
+            "name": "Classic Irish Coffee",
+            "type": "Cocktail",
+            "flavor": ["Warm", "Creamy", "Lightly Sweet", "Whiskey Kissed"],
+            "ingredients": ["1.5oz Whiskey", "1 tsp Brown Sugar", "4oz Hot Coffee", "Lightly Whipped Heavy Cream"],
+            "mix": "Warm the glass, add brown sugar to the glass. Pour coffee and stir to combine with the brown sugar, then add whiskey and stir again. Float whipped cream on top by pouring it over the back of a spoon."
+        },
+        {
+            "name": "Cold Brew Irish Coffee",
+            "type": "Cocktail",
+            "flavor": ["Smooth", "Bold", "Chilled", "Slightly Sweet", "Irish Kick"],
+            "ingredients": ["2oz Irish Whiskey", "4oz Cold Brew Coffee","0.5oz Simple Syrup", "1oz Heavy Cream"],
+            "mix": "Fill a glass with ice, Add cold brew, irish whiskey, and simple syrup. Stir to combine, then float the cream on top by pouring it over the back of a spoon."
+        },
+        {
+            "name": "Tom Collins", 
+            "type": "Cocktail",
+            "flavor": ["Tart", "Fizzy"],
+            "ingredients": ["2oz Gin", "1oz Lemon Juice", "0.5-0.75oz Simple Syrup", "Soda Water", "Lemon Twist"],
+            "mix": "Shake gin, lemon juice, and syrup with ice. Strain into a tall glass with ice. Top with soda water and garnish with the lemon twist"
+        },
+        {
+            "name": "Negroi",
+            "type": "Cocktail",
+            "flavor": ["Bitter", "Bold", "Smooth"],
+            "ingredients": ["1oz Gin", "1oz Campari", "1oz Sweet Vermouth", "Orange Peel"],
+            "mix": "Stir all ingredients over ice, strain into glass with ice. Garnish with an orange peel."
+        },
+        {
+            "name": "Dark 'n Stormy",
+            "type": "Cocktail",
+            "flavor": ["Spicy", "Citrusy", "Slightly Sweet", "Ginger Kick"],
+            "ingredients": ["2oz Dark Rum", "4-5oz Ginger Beer", "0.5oz Lime Juice", "Lime Wedge"],
+            "mix": "Fill a glass with ice, then add ginger beer and lime juice. Then float rum on top by pouring it over the back of a spoon. Top it off with a lime wedge"
+        },
+        {
+            "name": "Banana Jack",
+            "type": "Cocktail",
+            "flavor": ["Smooth", "Sweet", "Whiskey Warmth", "Banana Creamyness"],
+            "ingredients": ["1.5oz Jack Daniels", "1oz Banana Liquour", "0.5oz Lemon Juice", "0.25oz Simple Syrup", "Splash of Ginger Beer"],
+            "mix": "Fill a shaker with ice, add Jack Daniel's, banana liquour, and lemon juice. Shake and strain into a glass over ice. Top with a splash of ginger beer."
+        },
+        {
+            "name": "Pimms Cup",
+            "type": "Cocktail",
+            "flavor": ["Light", "Herbal", "Citrusy"],
+            "ingredients": ["2oz Pimms No. 1", "Lemon Soda", "Mint", "Cucomber", "Orange", "Strawberry"],
+            "mix": "Pour the Pimms over ice in a glass, fill with lemon soda as desired. Then top with all of the garnishes."
+        },
+        {
+            "name": "Gin & It",
+            "type": "Cocktail",
+            "flavor": ["Boozy", "Lightly Bitter", "Old School"],
+            "ingredients": ["1.5oz Gin", "1.5oz Sweet Vermouth"],
+            "mix": "Stir over ice and strain into a chilled glass filled with ice."
+        },
+        {
+            "name": "English Garden",
+            "type": "Cocktail",
+            "flavor": ["Floral", "Crisp"],
+            "ingredients": ["1.5oz Gin", "1oz Elderflower Liquour", "1oz Apple Juice", "0.5oz Lime Juice"],
+            "mix": "Shake all ingredients with ice and strain into a chilled glass."
+        },
+        {
+            "name": "Shandy",
+            "type": "Cocktail",
+            "flavor": ["Light", "Low Alcohal"],
+            "ingredients": ["Lager", "Sprite"],
+            "mix": "Fill half a glass wtih the lager, and the other half with the sprite."
+        },
+        {
+            "name": "Snakebite",
+            "type": "Cocktail",
+            "flavor": ["Malty", "Low Alcohal"],
+            "ingredients": ["Lager", "Cider"],
+            "mix": "Fill half a glass with the lager, and the other half with the cider."
+        },
+        {
+            "name": "Hot Toddy",
+            "type": "Cocktail",
+            "flavor": ["Boozy", "Tea"],
+            "ingredients": ["2oz Whiskey", "Hot Tea", "Honey", "Lemon Wedge", "Cloves"], 
+            "mix": "Build in a mug starting with the tea, stir gently to combine."
+        },
+        {
+            "name": "Classic Margarita",
+            "type": "Cocktail", 
+            "flavor": ["Tart", "Citrusy", "Slightly Sweet", "Kiss of Salt"], 
+            "ingredients": ["2oz Tequila", "1oz Cointreau or Triple Sec", "1oz Lime Juice", "0.25-0.5oz Simple or Agave Syrup", "Salt", "Lime Wheel"],
+            "mix": "Run a lime wedge around the rim of our glass and dip the rim in salt. In a Shaker combine the tequila, cointreau, lime juice, and sweetener. Add ice then shake hard until well chilled. Strain into a glass with ice and garnish it with the lime wheel."
+        },
+        {
+            "name": "Classic Mojito", 
+            "type": "Cocktail",
+            "flavor": ["Crisp", "Mint", "Citrusy", "Slightly Sweet"],
+            "ingredients": ["2oz White Rum", "0.75oz Lime Juice", "0.5-0.75oz Simple Syrup", "8-10 Mint Leaves", "Soda Water", "Lime Wedge"],
+            "mix": "In a glass muddle mint leaves with lime juice and simple syrup. Add rum and fill the glass with ice. Top the drink with soda water, stir gently to combine.  While combining bring the mint leaves from the top from the bottom. Garnish with a lime wedge."
+        },
+        {
+            "name": "Classic Mai Tai", 
+            "type": "Cocktail", 
+            "flavor": ["Tart Lime", "Sweet Orange", "Nutty Orgeat", "Bold Rum"], 
+            "ingredients": ["1oz Light Rum", "1oz Dark Rum", "0.75oz Lime Juice", "0.5oz Orange Curacao", "0.25oz Simple Syrup", "0.25 Orgeat Syrup", "Lime Wedge"], 
+            "mix": "Shake all Ingredients with ice until well chilled. Strain into a glass with crushed ice. Garnish with a lime wedge."
+        },
+        {
+            "name": "Gimlet", 
+            "type": "Cocktail",
+            "flavor": ["Crisp", "Tart", "Sweet"], 
+            "ingredients": ["2oz Gin", "0.75oz Lime Juice", "0.5-0.75oz Simple Syrup"], 
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass, garnish with a lime wheel or a twist."
+        },
+        {
+            "name": "Boulevardier", 
+            "type": "Cocktail",
+            "flavor": ["Bold", "Bitter", "Sweet", "Complex", "Warm"],
+            "ingredients": ["1oz Bourbon", "1oz Sweet Vermouth", "1oz Campari"],
+            "mix": "Add all ingredients to a mixing glass with ice. Stir until well chilled. Then strain into a chilled glass. Garnish with an orange twist."
+        },
+        {
+            "name": "London Fog Iced Tea",
+            "type": "Tea",
+            "flavor": ["Creamy", "Floral", "Citrusy", "Vanilla"],
+            "ingredients": ["1 Earl Grey Tea Bag", "1 Cup Hot Water", "0.5 Cups Cold Milk", "1 Teaspoon Vanilla Syrup"],
+            "mix": "Steep the earl grey in hot water for 5-7 minuets. Fill a tall glass with ice, remove the tea bag and let the tea cool. In a seperate glass mix the milk and syrup, then pour the cooled tea over the ice and top with the vanilla milk mix. Stir to combine."
+        },
+        {
+            "name": "Butterfly Peaflower Lemonade Tea",
+            "type": "Tea",
+            "flavor": ["Mildly Floral", "Slightly Earthy", "Bright Citrus Snap"],
+            "ingredients": ["1 Butterfly Peaflower Tea Bag", "1 Cup Hot Water", "0.5 Cups Lemon Juice", "2 Teaspoons Simple Syrup", "Honey or Sugar"],
+            "mix": "Steep the tea for 5-7 minutes with hot water, remove the tea bag and add sweetener for taste. Let the tea chill, fill a glass with ice then pour the tea in. Afterwards add lemon juice if you've done it right it should turn purple."
+        },
+        {
+            "name": "Banana Jack Sour",
+            "type": "Cocktail",
+            "flavor": ["Banana Creamyness", "Whiskey Warm", "Lemon Tart"],
+            "ingredients": ["2oz Whiskey", "1oz Banana Liquour", "0.5oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White", "1oz Chilled Ginger Beer"],
+            "mix": "Combine whiskey, banana liquour, lemon juice, simple syrup, and the egg white in a shaker. Shake hard before adding ice and shaking again until chilled and frothy. Strain into a glass with ice, topping with ginger beer."
+        },
+        {
+            "name": "Classic Pina Colada",
+            "type": "Cocktail",
+            "flavor": ["Creamy", "Tropical", "Sweet"],
+            "ingredients": ["2oz White Rum", "1oz Coconut Cream", "1.5-2oz Pineapple Juice", "1/2 Cups Crushed Ice"],
+            "mix": "Toss everything into a blender. Then blend until sweet and slushy before pouring into a glass"
+        },
+        {
+            "name": "Long Island Iced Tea",
+            "type": "Cocktail",
+            "flavor": ["Smooth", "Citrusy"],
+            "ingredients": ["0.5oz Vodka", "0.5oz White Rum", "0.5oz Gin", "0.5oz Tequila", "0.5oz Triple Sec", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "Cola"],
+            "mix": "Fill a glass wtih ice, add all spirites, lemon juice and simple syrup. Stir or shake to combine then top with cola"
+        },
+        {
+            "name": "Dalgona Coffee",
+            "type": "Coffee",
+            "flavor": ["Sweet", "Bold", "Creamy"],
+            "ingredients": ["2 Tablespoon Instant Coffee", "2 Tablespoon Sugar", "1 Cup Milk", "Hot Water"],
+            "mix": "Combine the instant coffee, sugar, and hot water in a bowl. Whip until it becomes thick, glossy, and forms soft peaks. Pour milk into glass over ice. Dollop whipped coffee over the milk. Stir togther before drinking"
+        },
+        {
+            "name": "Britanico", 
+            "type": "Coffee",
+            "flavor": ["Strong", "Smooth", "No-frils"], 
+            "ingredients": ["2oz Espresso", "3-4oz Hot Water"],
+            "mix": "Pull a double shot using a espresso machine. Boil water into mug before adding espresso."
+        },
+        {
+            "name": "Sazerac",
+            "type": "Cocktail",
+            "flavor": ["Spicy", "Herbal", "Bitter - Sweet"],
+            "ingredients": ["2oz Rye Whiskey", "1 Sugar Cube", "3 Dashes Peychauds Bitters", "Absinthe", "Lemon Peel"],
+            "mix": "Chill a glass. Muddle sugar and bitters add rye into a different glass. Stir with ice until chilled. Add a splash of absinthe, swirl to coat, then dump. Strin rye mix into the chilled glass then express the lemon peel and drop it in."
+        },
+        {
+            "name": "Clover Club",
+            "type": "Cocktail",
+            "flavor": ["Tart Raspberry - Lemon", "Gin Backbone"],
+            "ingredients": ["1.5oz Gin", "0.5oz Raspberry Syrup", "0.75oz Lemon Juice", "1 Egg White"],
+            "mix": "Shake all ingredients without ice to froth the egg white. Add ice, then shake until the glass is well chilled and foamy. Strain into a glass with ice."
+        },
+        {
+            "name": "Basil Gin Fizz", 
+            "type": "Cocktail",
+            "flavor": ["Fresh", "Herbal", "Lemon", "Creamy Foam"],
+            "ingredients": ["2oz Gin", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White", "3-4 Basil Leaves", "Soda Water"],
+            "mix": "Muddle basil with lemon juice and syrup in a shaker. Add gin and egg white, dry shake. Add ice and shake again. Strain into a glass and top with soda water."
+        },
+        {
+            "name": "Pink Lady",
+            "type": "Cocktail",
+            "flavor": ["Tart", "Floral", "Touch Sweet"],
+            "ingredients": ["1.5oz Gin", "0.5 Apple Brandy", "0.5oz Lemon Juice", "1 Egg White"],
+            "mix": "Shake all ingredients without ice to froth. Add ice shake again till chilled and foamy. Strain into a chilled glass."
+        },
+        {
+            "name": "Flip",
+            "type": "Cocktail",
+            "flavor": ["Rich", "Warm", "Slightly Sweet", "Spirit Forward"],
+            "ingredients": ["2oz Dark Rum, Brandy, or Whiskey", "0.5oz Simple Syrup", "1 Egg", "Grated Nutmeg"],
+            "mix": "Shake all ingredients without ice till frothed. Add ice shake again. Strain into a chilled glass and garnish with nutmeg."
+        },
+        {
+            "name": "Eggnog", 
+            "type": "Cocktail",
+            "flavor": ["Rich", "Spiced", "Creamy"],
+            "ingredients": ["1oz Bourbon", "1oz Dark Rum", "0.5oz Simple Syrup", "1 Egg", "1oz Whole Milk", "1oz Heavy Cream", "Nutmeg", "Cinnamon"],
+            "mix": "Combine all ingredients without ice, shake thourouly to emulsify. Add ice and shake again. Strain into a small mug. Garnish with nutmeg and cinnamon."
+        },
+        {
+            "name": "Ramos Gin Fizz",
+            "type": "Cocktail",
+            "flavor": ["Citrusy", "Floral", "Creamy", "Subtle Gin"],
+            "ingredients": ["2oz Gin", "0.5oz Lemon Juice", "0.5oz Lime Juice", "1oz Simple Syrup", "1oz Heavy Cream", "1 Egg White", "2 Drops Orange Flower Water", "Soda Water"],
+            "mix": "Shake everything but soda with no ice, add ice and shake again for 1-2 minutes. Strain into a chilled glass slowly top with soda water."
+        },
+        {
+            "name": "Golden Fizz",
+            "type": "Cocktail",
+            "flavor": ["Smooth", "Mellow", "Bright Citrus"],
+            "ingredients": ["2oz Gin", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg Yolk", "Soda Water"],
+            "mix": "Shake gin, lemon, syrup, and yolk without ice. Add ice and shake again until chilled and creamy. Strain then top with soda water"
+        },
+        {
+            "name": "Silver Fizz",
+            "type": "Cocktail",
+            "flavor": ["2oz Gin", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White", "Soda Water"],
+            "ingredients": ["2oz Gin", "0.75oz Lemon Juice", "0.25oz Simple Syrup", "1 Egg White", "Soda Water"],
+            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass and top with soda."
+        },
+        {
+            "name": "Royal Fizz",
+            "type": "Cocktail",
+            "flavor": ["Rich", "Full Bodied", "Creamy", "Smooth"],
+            "ingredients": ["2oz Gin", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg", "Soda Water"],
+            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass then top with soda."
+        },
+        {
+            "name": "Whiskey Silver Fizz",
+            "type": "Cocktail",
+            "flavor": ["Smooth", "Citrusy", "Slightly Spicy"],
+            "ingredients": ["2oz Bourbon or rye Whiskey", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White", "Soda Water"],
+            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass and top with soda."
+        },
+        {
+            "name": "Whiskey Golden Fizz",
+            "type": "Cocktail",
+            "flavor": ["Mellow Whiskey", "Creamy Lemon Softness"],
+            "ingredients": ["2oz Bourbon or rye Whiskey", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg Yolk", "Soda Water"],
+            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass and top with soda."
+        },
+        {
+            "name": "Whiskey Royal Fizz",
+            "type": "Cocktail",
+            "flavor": ["Deep", "Rich", "Creamy Complexity"],
+            "ingredients": ["2oz Bourbon or rye Whiskey", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg", "Soda Water"],
+            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass and top with soda."
+        },
+        {
+            "name": "Frozen Irish Flip",
+            "type": "Cocktail",
+            "flavor": ["Smooth", "Cold Brew", "Whiskey Warmth"],
+            "ingredients": ["2oz Cold Brew Concentrate", "1oz Irish Whiskey", "0.5oz Maple Syrup", "1 Egg"],
+            "mix": "Blend everything until smooth and frothy, pour into a chilled glass. Garnish with shaved chocolate, nutmeg or dollop of whipped cream."
+        },
+        {
+            "name": "White Russian",
+            "type": "Cocktail",
+            "flavor": ["Creamy", "Coffee Forward", "Slightly Sweet"],
+            "ingredients": ["2oz Vodka", "1oz Coffee Liquour", "1oz Heavy Cream"],
+            "mix": "Fill a glass with ice, add vodka and coffee liquour. Float cream on top using the back of a spoon."
+        },
+        {
+            "name": "Hemingway Daiquri",
+            "type": "Cocktail",
+            "flavor": ["Dry", "Tart", "Citrusy", "Lightly Bitter"],
+            "ingredients": ["2oz White Rum", "0.5oz Lime Juice", "0.75oz Grapefruit Juice", "0.5oz Maraschino Liquour"],
+            "mix": "Add all ingredients to a shaker with ice. Shake until well chilled, then strain into a chilled glass."
+        },
+        {
+            "name": "Vesper Martini", 
+            "type": "Cocktail",
+            "flavor": ["Strong", "Smooth", "Citrus Bright"],
+            "ingredients": ["3oz Gin", "1oz Vodka", "0.5oz Dry Vermouth"],
+            "mix": "Stir or shake all ingredients with ice untill ice-cold. Strain into a chilled martini glass. Garnish with a lemon twist."
+        },
+        {
+            "name": "Paper Plane",
+            "type": "Cocktail",
+            "flavor": ["Bitter - Sweet", "Citrusy", "Balanced"],
+            "ingredients": ["0.75oz Bourbon", "0.75oz Aperol", "0.75oz Lemon Juice"],
+            "mix": "Add all ingredients to a shaker with ice. Shake vigorously until well chilled, before straining into a chilled glass."
+        },
+        {
+            "name": "Old Cuban", 
+            "type": "Cocktail",
+            "flavor": ["Minty", "Bright", "Bubbly Finish"],
+            "ingredients": ["1.5oz aged Rum", "0.75oz Lime Juice", "0.75oz Simple Syrup", "2 Dashes Angostura Bitters", "6-8 Mint Leaves", "Champagne"],
+            "mix": "Gently muddle mint, lime juice, and syrup in a shaker. Add rum and bitters before shaking hard until well chilled. Strain into a chilled glass then top with champagne."
+        },
+        {
+            "name": "Cuba Libre", 
+            "type": "Cocktail",
+            "flavor": ["Cola", "Lime", "Bold Rum"],
+            "ingredients": ["2oz White Rum", "0.5oz Lime Juice", "Coca-Cola"],
+            "mix": "Fill a glass with ice, add rum and lime juice before topping with coca-cola."
+        },
+        {
+            "name": "Brandy Alexander", 
+            "type": "Cocktail",
+            "flavor": ["Creamy", "Chocolate", "Brandy Notes"],
+            "ingredients": ["1oz Brandy", "1oz Dark Cream de Cacao", "1oz Heavy Cream"],
+            "mix": "Shake all ingredients with ice. Strain into a chilled glass."
+        },
+        {
+            "name": "Mudslide", 
+            "type": "Cocktail",
+            "flavor": ["Chocolate", "Coffee Forward", "Creamy"], 
+            "ingredients": ["1oz Vodka", "1oz Coffee Liquour", "1oz Irish Cream"],
+            "mix": "Shake all ingredients with ice and strain into a chilled glass with ice."
+        },
+        {
+            "name": "Jack And Coke",
+            "type": "Cocktail",
+            "flavor": ["Sweet", "Smoky", "Cola Forward"],
+            "ingredients": ["2oz Jack Daniel's", "Coca-Cola", "0.25oz Lime Juice"],
+            "mix": "Fill a glass with ice, pour in jack and lime juice before topping coke."
+        },
+        {
+            "name": "Whiskey Ginger", 
+            "type": "Cocktail",
+            "flavor": ["Zesty", "Lightly Sweet", "Sharp Ginger Heat"],
+            "ingredients": ["2oz Jack Daniel's", "Ginger Ale", "0.25oz Lime Juice"],
+            "mix": "Fill a glass with ice, pour in jack and lime juice before topping ginger ale."
+        },
+        {
+            "name": "Lynchburg Lemonade",
+            "type": "Cocktail",
+            "flavor": ["Tart", "Sweet", "Smooth"],
+            "ingredients": ["1.5oz Jack Daniels", "1oz Triple Sec", "1oz Lemon Juice", "1oz Simple Syrup", "Sprite or Club Soda"],
+            "mix": "Shake everything but soda with ice. Strain into a chilled glass slowly top with soda."
+        },
+        {
+            "name": "The Troublemaker", 
+            "type": "Cocktail",
+            "flavor": ["Bold", "Slightly Bitter", "Caffeine Upper Cut", "Whiskey Kissed"],
+            "ingredients": ["1.5oz Jack Daniels", "3oz Cold Brew Coffee", "0.5oz Coffee Liquour", "0.25-0.5oz Simple Syrup"],
+            "mix": "Build in a glass over ice, stir to chill and combine."
+        },
+        {
+            "name": "Jack Apple Spritz",
+            "type": "Cocktail",
+            "flavor": ["Crisp Apple", "Lightly Sweet", "Fizzy", "Refreshing"],
+            "ingredients": ["1.5oz Jack Daniels Apple", "0.5oz Lemon Juice", "2oz Club Soda", "1oz Apple Juice"],
+            "mix": "Build in a glass over ice, stir to chill and combine."
+        },
+        {
+            "name": "Frozen Jack And Cherry Coke Slushy",
+            "type": "Cocktail",
+            "flavor": ["Sweet Cola", "Cherry Pop", "Whiskey Warmth"],
+            "ingredients": ["2oz Jack Daniel's", "6oz Cherry Cola"],
+            "mix": "Blend everything until smooth and frothy, pour into a chilled glass."
+        },
+        {
+            "name": "Nojito",
+            "type": "Mocktail",
+            "flavor": ["Refreshing", "Zesty", "Herbal"],
+            "ingredients": ["6-8 Mint Leaves", "0.75oz Lime Juice", "0.5oz Simple Syrup", "Club Soda"],
+            "mix": "Muddle mint, lime and syrup in a glass. Add ice and top with soda, stir gently to combine."
+        },
+        {
+            "name": "Peach Ginger Fizz", 
+            "type": "Mocktail",
+            "flavor": ["Bright", "Juicy", "Gingery"],
+            "ingredients": ["2oz Peach Nectar", "0.5oz Lemon Juice", "2-3oz Ginger Beer"],
+            "mix": "Shake peach nectar and lemon juice with ice. Strain into a glass with ice. Top with ginger beer."
+        },
+        {
+            "name": "Cucumber Berry Cooler", 
+            "type": "Mocktail",
+            "flavor": ["Cooling", "Fruity", "Lightly Tart"],
+            "ingredients": ["2-3 Sliced Strawberries", "2 Slices of Cucumber", "0.5oz Lime Juice", "0.5oz Simple Syrup", "Soda Water"],
+            "mix": "Muddle strawberries, cucumber, syrup and lime juice in a shaker. Shake with ice and strain into a glass with ice top with soda water."
+        },
+        {
+            "name": "Citrus Smash", 
+            "type": "Mocktail",
+            "flavor": ["Tangy", "Slightly Sweet", "Sparkling"],
+            "ingredients": ["1oz Lemon Juice", "1oz Orange Juice", "0.5oz Simple Syrup", "Soda Water"],
+            "mix": "Shake citrus juices and syrup with ice. Double Strain into a glass with ice, before topping with soda."
+        },
+        {
+            "name": "Fake and Coke", 
+            "type": "Mocktail",
+            "flavor": ["Smoky", "Sweet", "Cola Forward"],
+            "ingredients": ["2oz Spiritless", "Coca-Cola"],
+            "mix": "fill a glass with ice, pour in the spiritless and top with cola."
+        },
+        {
+            "name": "The Pretender", 
+            "type": "Mocktail",
+            "flavor": ["Cola", "Citrus Edge", "Herbal Backbone"],
+            "ingredients": ["3oz Cold Brew Lap Song Souchong Tea", "1oz Orange Juice", "0.25 Lemon Juice", "4oz Coke"],
+            "mix": "Shake tea and citrus juices with ice. Strain into a chilled glass with ice, top with coke."
+        },
+        {
+            "name": "Martinez", 
+            "type": "Cocktail", 
+            "flavor": ["Herbal", "Lightly Sweet", "Rich", "Floral"],
+            "ingredients": ["1.5oz Gin", "1.5oz Sweet Vermouth", "0.25oz Maraschino Liquour", "2 Dashes Orange Bitters"],
+            "mix": "Stir all ingredients with ice, Strain inot a chilled glass."
+        },
+        {
+            "name": "El Presidente", 
+            "type": "Cocktail",
+            "flavor": ["Crisp", "Dry", "Lightly Fruity"], 
+            "ingredients": ["1.5oz White Rum", "0.75oz Dry Vermouth", "0.25oz Orange Curacao", "1 Barspoon Grenadine"],
+            "mix": "Stir with ice till chilled, strain into chilled glass."
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipes</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Recipes</h1>
+            <p>Simple cooking with what you have</p>
+        </div>
+    </header>
+
+    <button class="shopping-list-toggle" onclick="toggleShoppingList()">
+        Shopping List <span class="shopping-list-badge" id="list-count">0</span>
+    </button>
+
+    <div class="shopping-list-section" id="shopping-list">
+        <div class="shopping-list-header">
+            <h3>Shopping List</h3>
+            <button class="close-shopping-list" onclick="toggleShoppingList()">×</button>
+        </div>
+        <div class="shopping-list-content">
+            <div class="selected-recipes">
+                <h4>Selected Recipes</h4>
+                <div id="selected-recipes-list"></div>
+            </div>
+            
+            <div class="shopping-list-items">
+                <h4>Ingredients Needed</h4>
+                <div id="shopping-ingredients"></div>
+            </div>
+            
+            <button class="clear-list-btn" onclick="clearShoppingList()" id="clear-btn" style="display: none;">Clear All</button>
+        </div>
+    </div>
+
+    <div class="recipe-modal" id="recipe-modal">
+        <div class="recipe-modal-content">
+            <div class="recipe-modal-header">
+                <h2 id="modal-recipe-name"></h2>
+                <button class="close-modal" onclick="closeRecipeModal()">×</button>
+            </div>
+            <div class="recipe-modal-body" id="modal-recipe-body">
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="search-section">
+            <h2>What's in your kitchen?</h2>
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="ingredient-search" 
+                    placeholder="egg, rice, chicken..."
+                    autocomplete="off"
+                >
+            </div>
+            <p class="search-help">Enter ingredients separated by commas</p>
+            
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="makeable">Can Make Now</button>
+                <button class="filter-tab" data-filter="all">All Recipes</button>
+            </div>
+        </div>
+
+        <div id="results-info" class="results-info"></div>
+
+        <div id="menu-grid">
+            <!-- Menu items will be loaded here -->
+        </div>
+
+        <div id="no-results" class="no-results" style="display: none;">
+            <h3>No recipes found</h3>
+            <p>Try different ingredients or check the "missing 1-2 ingredients" filter</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>My Recipes © 2025</p>
+        </div>
+    </footer>
+    <script src="./resources/js/menu.js"></script>
+</body>
+</html>
