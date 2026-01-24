@@ -531,6 +531,13 @@
             "flavor": ["Electric Citrus", "Wildly Sweet"],
             "ingredients": ["0.5oz Vodka", "0.5oz Gin", "0.5oz Rum", "0.5oz Triple Sec", "0.5oz Blue Curacao", "0.5oz Peach Schapps", "Red Bull"],
             "mix": "Fill a large glass with ice, add all the spirits. Top with red bull and stir gently to combine."
+        },
+        {
+            "name": "Adios Mother Fucker",
+            "type":"Cocktail",
+            "flavor": ["Citrusy Bomb"],
+            "ingredients": ["o.5oz Vodka", "0.5oz Rum", "0.5oz Gin", "0.5oz Tequila", "0.5oz Blue Curacao", "2oz Sour Mix", "Sprite"],
+            "mix": "Build in a glass over ice, topping with ice at the end stir to chill and combine."
         }
     ]
 }
