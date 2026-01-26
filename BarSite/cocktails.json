@@ -538,6 +538,216 @@
             "flavor": ["Citrusy Bomb"],
             "ingredients": ["o.5oz Vodka", "0.5oz Rum", "0.5oz Gin", "0.5oz Tequila", "0.5oz Blue Curacao", "2oz Sour Mix", "Sprite"],
             "mix": "Build in a glass over ice, topping with ice at the end stir to chill and combine."
+        },
+        {
+            "name": "Dirty Shirley", 
+            "type": "Cocktail",
+            "flavor": ["Sweet", "Cherry Cola", "Fun Twist"],
+            "ingredients": ["2oz Vodka", "4oz Lemon-Lime Soda", "0.5oz Grenadine", "Maraschino Cherry"],
+            "mix": "Fill a glass with ice, add vodka and soda. Pour grenadine over the back of a spoon to create a layered effect. Garnish with a maraschino cherry."
+        },
+        {
+            "name": "Tunisian Death Drink",
+            "type": "Cocktail",
+            "flavor": ["Earthy", "Fiery", "Slightly Sweet", "Fruity", "Strong"],
+            "ingredients": ["2oz Boukha", "0.5oz Lemon Juice", "0.5oz Grenadine", "Dash of Harissa", "Mint"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass and garnish with mint."
+        },
+        {
+            "name": "Corpse Reviver #2",
+            "type": "Cocktail",
+            "flavor": ["Bright", "Citrusy", "Slightly Herbal", "Balanced"],
+            "ingredients": ["1oz Gin", "1oz Cointreau", "1oz Lillet Blanc", "1oz Lemon Juice", "Dash of Absinthe"],
+            "mix": "Rince a chilled glass with absinthe. Shake all other ingredients with ice until well chilled. Strain into the prepared glass."
+        },
+        {
+            "name": "Smoked Maple Stone", 
+            "type": "Cocktail",
+            "flavor": ["Sweet", "Sharp", "Smooth"],
+            "ingredients": ["2oz Rye Whiskey", "0.5oz Lemon Juice", "0.25oz Orange Juice", "0.5oz Maple Syrup", "2 Dashes Angostura Bitters"],
+            "mix": "Add all ingredients to a shaker with ice, shake hard for about 10-12 seconds. Strain into a chilled glass garnishing with an orange twist."
+        },
+        {
+            "name": "Vieux Carre",
+            "type": "Cocktail",
+            "flavor": ["Deep", "Spicy", "Rich"],
+            "ingredients": ["1oz Rye Whiskey", "1oz Cognac", "1oz Sweet Vermouth", "0.25oz Benedictine", "2 Dashes Peychauds Bitters", "2 Dashes Angostura Bitters"],
+            "mix": "Stir all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "Brooklyn",
+            "type": "Cocktail",
+            "flavor": ["Dry", "Bitter - Sweet", "Complex"],
+            "ingredients": ["2oz Rye Whiskey", "0.75oz Dry Vermouth", "0.25oz Maraschino Liquour", "0.25oz Amer Picon or Amaro"],
+            "mix": "Stir all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "Scofflaw", 
+            "type": "Cocktail",
+            "flavor": ["Tart", "Crisp"],
+            "ingredients": ["1.5oz Rye Whiskey", "1oz Dry Vermouth", "0.75oz Lemon Juice", "0.5oz Grenadine", "2 Dashes Orange Bitters"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "Iced Caramel Duchess Latte",
+            "type": "Tea", 
+            "flavor": ["Citrusy", "Floral"],
+            "ingredients": ["2 Duchess Grey Tea Bags", "0.5 Cups Water", "0.5-0.75 Cups Steamed Milk", "1 tsp Caramel Syrup"],
+            "mix": "Steep the Duchess Grey for 5min to make it strong. Remove bag then chill the tea. In a glass, Mix caramel syrup to dessolve the syrup. Fill a glass with ice then pour in the cold milk."
+        },
+        {
+            "name": "Painkiller", 
+            "type": "Cocktail",
+            "flavor": ["Creamy", "Tropical", "Rich"],
+            "ingredients": ["2oz Dark Rum", "1oz Cream of Coconut", "4oz Pineapple Juice", "1oz Orange Juice", "Nutmeg"],
+            "mix": "Fill a shaker with ice, add all ingredients except nutmeg. Shake until well chilled, then strain into a glass filled with ice. Garnish with grated nutmeg."
+        },
+        {
+            "name": "Jungle Bird",
+            "type": "Cocktail",
+            "flavor": ["Tropical", "Bitter", "Balanced"],
+            "ingredients": ["1.5oz Dark Rum", "0.75oz Campari", "1.5oz Pineapple Juice", "0.5oz Simple Syrup"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a glass filled with ice."
+        },
+        {
+            "name": "Americano",
+            "type": "Cocktail",
+            "flavor": ["Bitter", "Bubbly", "Light"],
+            "ingredients": ["1oz Campari", "1oz Sweet Vermouth", "Soda Water", "Orange Twist"],
+            "mix": "Fill a glass with ice, add campari and vermouth. Top with soda water and stir gently to combine. Garnish with an orange twist."
+        },
+        {
+            "name": "White Wine Spritzer",
+            "type": "Cocktail",
+            "flavor": ["Effervescent", "Crisp", "Refreshing"],
+            "ingredients": ["3oz White Wine", "2oz Soda Water", "Lemon or Lime Wedge"],
+            "mix": "Fill a glass with ice, add white wine. Top with soda water and stir gently to combine. Garnish with a lemon or lime wedge."
+        },
+        {
+            "name": "Hugo Spritz", 
+            "type": "Cocktail",
+            "flavor": ["Floral","Citrus Fresh", "Delicate"],
+            "ingredients": ["3oz Prosecco", "1oz Elderflower Syrup", "2oz Soda Water", "6-8 Fresh Mint Leaves", "Lime Wedge"],
+            "mix": "Muddle mint leaves and lime wedge in a glass. Fill the glass with ice, add elderflower syrup and prosecco. Top with soda water and stir gently to combine. Garnish with a sprig of mint."
+        },
+        {
+            "name": "Penicillin", 
+            "type": "Cocktail",
+            "flavor": ["Smokey", "Honeyed", "Sharp"],
+            "ingredients": ["2oz Blended Scotch", "0.75oz Lemon Juice", "0.75oz Honey - Ginger Syrup", "0.25oz Islay Single Malt Scotch"],
+            "mix": "Shake blended scotch, lemon juice, and honey-ginger syrup with ice until well chilled. Strain into a glass filled with ice. Float the Islay scotch on top by pouring it over the back of a spoon."
+        },
+        {
+            "name": "Grandmoms Pink Toinic",
+            "type": "Cocktail",
+            "flavor": ["Sweet", "Citrusy", "Grapefruit"],
+            "ingredients": ["2oz Pink Gin", "4oz Tonic Water", "2 Grapefruit Slices"],
+            "mix": "Fill a glass with ice, add pink gin. Top with tonic water and stir gently to combine. Garnish with grapefruit squeezed slices."
+        },
+        {
+            "name": "Blue Lagoon Mule",
+            "type": "Cocktail",
+            "flavor": ["Bright", "Tropical", "Gingery", "Nutty Depth"],
+            "ingredients": ["1.5oz Vodka", "0.5oz Blue Curacao", "0.5oz Lime Juice", "4oz Ginger Beer", "0.5oz Almond Syrup"],
+            "mix": "Fill a glass with ice, add vodka, blue curacao, lime juice, and almond syrup. Top with ginger beer and stir gently to combine."
+        },
+        {
+            "name": "Aviation",
+            "type": "Cocktail",
+            "flavor": ["Elegant", "Floral", "Lightly Tart"],
+            "ingredients": ["2oz Gin", "0.5oz Maraschino Liquour", "0.25oz Creme de Violette", "0.75oz Lemon Juice"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "Midori Sour", 
+            "type": "Cocktail",
+            "flavor": ["Sweet Melon", "Refreshing Lemon-Lime Tang"],
+            "ingredients": ["2oz Midori Melon Liquour", "1oz Lemon Juice", "0.5oz Simple Syrup", "Soda Water"],
+            "mix": "Shake midori, lemon juice, and simple syrup with ice until well chilled. Strain into a glass filled with ice and top with soda water."
+        },
+        {
+            "name": "Espresso Martini",
+            "type": "Cocktail",
+            "flavor": ["Bold", "Silky", "Coffee"],
+            "ingredients": ["2oz Vodka", "0.5oz Coffee Liquour", "1oz Fresh Espresso", "0.5oz Simple Syrup"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "White Lady",
+            "type": "Cocktail",
+            "flavor": ["Smooth", "Citrusy", "Slightly Creamy"],
+            "ingredients": ["2oz Gin", "0.75oz Triple Sec", "0.75oz Lemon Juice", "1 Egg White"],
+            "mix": "Shake all ingredients without ice to froth the egg white. Add ice and shake again until well chilled and foamy. Strain into a chilled glass."
+        },
+        {
+            "name": "Bee's Knees",
+            "type": "Cocktail",
+            "flavor": ["Bright", "Golden", "Honey - Sweet"],
+            "ingredients": ["2oz Gin", "0.75oz Honey Syrup", "0.75oz Lemon Juice"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "Sidecar",
+            "type": "Cocktail",
+            "flavor": ["Tart", "Citrusy", "Balanced"],
+            "ingredients": ["2oz Cognac", "0.75oz Triple Sec", "0.75oz Lemon Juice", "Sugar"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass, rimmed with sugar."
+        },
+        {
+            "name": "Brandy Smash",
+            "type": "Cocktail",
+            "flavor": ["Minty", "Refreshing", "Fruity"],
+            "ingredients": ["2oz Brandy", "0.75oz Simple Syrup", "0.75oz Lemon Juice", "6-8 Mint Leaves"],
+            "mix": "Muddle mint leaves with simple syrup and lemon juice in a shaker. Add brandy and ice, then shake until well chilled. Strain into a glass filled with ice."
+        },
+        {
+            "name": "Stinger", 
+            "type": "Cocktail",
+            "flavor": ["Smooth", "Minty", "Cooling"],
+            "ingredients": ["2oz Brandy", "1oz White Creme de Menthe"],
+            "mix": "Fill a glass with ice, add brandy and creme de menthe. Stir to combine."
+        },
+        {
+            "name": "Banana Colada",
+            "type": "Cocktail",
+            "flavor": ["Tropical", "Creamy", "Fruity"],
+            "ingredients": ["1.5oz White Rum", "1oz Cream of Coconut", "1oz Pineapple Juice", "0.5oz Banana Liqueur", "Pineapple Slice"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a glass filled with ice. Garnish with a pineapple slice."
+        },
+        {
+            "name": "Whisoda",
+            "type": "Cocktail",
+            "flavor": ["Light", "Citrusy", "Bubbly"],
+            "ingredients": ["2oz Whiskey", "4oz Ginger Ale", "3oz Lemon-Lime Soda", "Lemon or Lime Wedge"],
+            "mix": "Fill a glass with ice, add whiskey. Top with ginger ale and lemon-lime soda, stir gently to combine. Garnish with a lemon or lime wedge."
+        },
+        {
+            "name": "Elder Sage Elixer",
+            "type": "Cocktail",
+            "flavor": ["Herbal", "Citrusy", "Mysterious"],
+            "ingredients": ["1.5oz Gin", "0.5oz Elderflower Liqueur", "0.5oz Lemon Juice", "0.25oz Honey Syrup", "2 Sage Leaves"],
+            "mix": "Muddle the sage leaves with the lemon juice and honey syrup in a shaker. Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "Moonlight Draught",
+            "type": "Cocktail",
+            "flavor": ["Silky", "Floral"],
+            "ingredients": ["2oz Gin", "0.25oz Creme de Violette or Lavender Syrup", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "The Pyromancer",
+            "type": "Cocktail",
+            "flavor": ["Warm", "Spiced", "Citrusy"],
+            "ingredients": ["2oz Spiced Rum", "0.5oz Cinnamon Syrup", "0.5oz Cointreau", "0.75oz Lime Juice", "Dash of Chilli or Ginger Bitters"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+        },
+        {
+            "name": "Aether's Breath",
+            "type": "Cocktail",
+            "flavor": ["Tropical", " Mysterious", "Fruity"],
+            "ingredients": ["1.5oz Vodka", "0.5oz Blue Curacao", "0.5oz Coconut Rum", "2oz Pineapple Juice", "0.75oz Lime Juice"],
+            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
         }
     ]
 }
