@@ -1,0 +1,175 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Steadman - Projects Portfolio</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lucas Steadman</h1>
+            <p>Portfolio & Projects Showcase</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I'm Lucas Steadman, a passionate web developer and technology enthusiast. I love creating beautiful and functional websites that provide great user experiences. Below you'll find a collection of my personal and professional projects showcasing various technologies and skills.</p>
+        </section>
+
+        <section class="projects-header">
+            <h2>My Projects</h2>
+            <p>Explore my portfolio of diverse projects</p>
+        </section>
+
+        <section class="projects-grid">
+            <!-- WSD Heatmap -->
+            <div class="project-card">
+                <div class="project-header">WSD Heatmap</div>
+                <div class="project-content">
+                    <p>A Web Science System Development project that visualizes mapping investment income data via an interactive heatmap with user authentication and data visualization capabilities.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                    <a href="../WSDHeatmap/index.php" class="project-link">View Project →</a>
+                    <div class="file-window" id="files-wsd">
+                        <div class="file-window-header">
+                            📦 Project Files
+                            <span style="font-size: 0.7rem; color: #999;">3 items</span>
+                        </div>
+                        <ul class="file-list">
+                            <li class="folder">about_us_section/</li>
+                            <li class="folder">heatmap_section/</li>
+                            <li class="folder">login/</li>
+                            <li>index.php</li>
+                            <li>README.txt</li>
+                        </ul>
+                    </div>
+                    <span class="toggle-files" onclick="toggleFiles('files-wsd')">+ Show Files</span>
+                </div>
+            </div>
+
+            <!-- Recipes App -->
+            <div class="project-card">
+                <div class="project-header">Recipe Finder</div>
+                <div class="project-content">
+                    <p>An interactive recipe finder application that allows users to browse and discover recipes with filtering capabilities, built with JSON data management and responsive design.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">JSON</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                    <a href="../Recipes/index.html" class="project-link">View Project →</a>
+                    <div class="file-window" id="files-recipes">
+                        <div class="file-window-header">
+                            📦 Project Files
+                            <span style="font-size: 0.7rem; color: #999;">3 items</span>
+                        </div>
+                        <ul class="file-list">
+                            <li class="folder">data/</li>
+                            <li class="folder">resources/</li>
+                            <li>index.html</li>
+                            <li>README.txt</li>
+                        </ul>
+                    </div>
+                    <span class="toggle-files" onclick="toggleFiles('files-recipes')">+ Show Files</span>
+                </div>
+            </div>
+
+            <!-- Wheel -->
+            <div class="project-card">
+                <div class="project-header">Spin Wheel</div>
+                <div class="project-content">
+                    <p>An interactive spinning wheel application with smooth animations and dynamic interactions, perfect for games, raffles, or decision-making activities.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Canvas API</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <a href="../Wheel/wheel.html" class="project-link">View Project →</a>
+                    <div class="file-window" id="files-wheel">
+                        <div class="file-window-header">
+                            📦 Project Files
+                            <span style="font-size: 0.7rem; color: #999;">7 items</span>
+                        </div>
+                        <ul class="file-list">
+                            <li>wheel.html</li>
+                            <li>wheel.js</li>
+                            <li>wheel.css</li>
+                            <li>wheel.cpp</li>
+                            <li>wheel</li>
+                            <li>gmon.out</li>
+                            <li>wheel.out</li>
+                        </ul>
+                    </div>
+                    <span class="toggle-files" onclick="toggleFiles('files-wheel')">+ Show Files</span>
+                </div>
+            </div>
+
+            <!-- Jeopardy -->
+            <div class="project-card">
+                <div class="project-header">Jeopardy Game</div>
+                <div class="project-content">
+                    <p>A C++ implementation of a Jeopardy-style game with JSON-based question data, featuring an engaging trivia experience for freshmen.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">JSON</span>
+                        <span class="tech-tag">Game Logic</span>
+                    </div>
+                    <a href="../Jeapordy/jeapordy" class="project-link">View Project →</a>
+                    <div class="file-window" id="files-jeopardy">
+                        <div class="file-window-header">
+                            📦 Project Files
+                            <span style="font-size: 0.7rem; color: #999;">5 items</span>
+                        </div>
+                        <ul class="file-list">
+                            <li>freshmen.json</li>
+                            <li>jeapordy.cpp</li>
+                            <li>jeapordy</li>
+                            <li>json.hpp</li>
+                            <li>gmon.out</li>
+                        </ul>
+                    </div>
+                    <span class="toggle-files" onclick="toggleFiles('files-jeopardy')">+ Show Files</span>
+                </div>
+            </div>
+
+            <!-- Bar Site -->
+            <div class="project-card">
+                <div class="project-header">Cocktail Database</div>
+                <div class="project-content">
+                    <p>A cocktail database application featuring a collection of drink recipes and information, built with structured JSON data for easy navigation and lookup.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">JSON</span>
+                        <span class="tech-tag">Web App</span>
+                        <span class="tech-tag">Data Management</span>
+                    </div>
+                    <a href="../BarSite/" class="project-link">View Project →</a>
+                    <div class="file-window" id="files-bar">
+                        <div class="file-window-header">
+                            📦 Project Files
+                            <span style="font-size: 0.7rem; color: #999;">1 item</span>
+                        </div>
+                        <ul class="file-list">
+                            <li>cocktails.json</li>
+                        </ul>
+                    </div>
+                    <span class="toggle-files" onclick="toggleFiles('files-bar')">+ Show Files</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lucas Steadman. All projects are personal and professional works showcasing various web development and software engineering skills.</p>
+        </div>
+    </footer>
+    <script src="./resources/js/script.js"></script>
+</body>
+</html>

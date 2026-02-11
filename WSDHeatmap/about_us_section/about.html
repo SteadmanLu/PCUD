@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - ITWS 2110 Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">ITWS 2110</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="about-hero">
+            <h1>About Our Data</h1>
+            <p>Analyzing demographic trends using IPUMS ACS and CPS data to uncover socioeconomic patterns.</p>
+        </section>
+
+        <section class="about-content">
+            <div class="about-section">
+                <h2>Project Mission</h2>
+                <p>This project utilizes IPUMS (Integrated Public Use Microdata Series) data from the American Community Survey (ACS) and Current Population Survey (CPS) to analyze demographic, economic, and social trends. We combine these authoritative census datasets with modern data visualization techniques to provide actionable insights into population characteristics and labor market dynamics.</p>
+            </div>
+
+            <div class="about-section">
+                <h2>Data Sources</h2>
+                <div class="data-sources">
+                    <div class="source-card">
+                        <h3>American Community Survey (ACS)</h3>
+                        <p>Annual Census Bureau survey with 1-5 year estimates covering income, education, housing, and demographic characteristics of the U.S. population. Provides detailed cross-tabulations at multiple geographic levels.</p>
+                    </div>
+                    <div class="source-card">
+                        <h3>Current Population Survey (CPS)</h3>
+                        <p>Monthly labor force survey conducted jointly by Census Bureau and Bureau of Labor Statistics. Tracks employment, unemployment, and occupational data with detailed demographic breakdowns.</p>
+                    </div>
+                    <div class="source-card">
+                        <h3>IPUMS Integration</h3>
+                        <p>Harmonized microdata with consistent variable definitions across years, enabling time-series analysis and comparative demographic research across multiple decades.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h2>Methodology</h2>
+                <ul class="methodology-list">
+                    <li><strong>Data Extraction:</strong> Filtered IPUMS samples using Census Bureau weighting and stratification variables</li>
+                    <li><strong>Variable Harmonization:</strong> Standardized coding schemes across ACS and CPS for consistency</li>
+                    <li><strong>Statistical Analysis:</strong> Applied survey-appropriate weighting and confidence intervals</li>
+                    <li><strong>Visualization:</strong> Created interactive charts and geographic dashboards</li>
+                    <li><strong>Interpretation:</strong> Contextualized findings with demographic and economic trends</li>
+                </ul>
+            </div>
+
+            <div class="about-section">
+                <h2>Key Datasets</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-label">ACS 1-Year</div>
+                        <div class="metric-desc">Annual estimates with larger samples</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-label">ACS 5-Year</div>
+                        <div class="metric-desc">Pooled estimates for smaller areas</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-label">CPS ASEC</div>
+                        <div class="metric-desc">Annual Social and Economic Supplement</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-label">CPS ORG</div>
+                        <div class="metric-desc">Outgoing Rotation Groups monthly data</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h2>Key Variables Analyzed</h2>
+                <ul class="tech-list">
+                    <li><strong>Demographics:</strong> Age, gender, race/ethnicity, citizenship status</li>
+                    <li><strong>Economic:</strong> Income, employment status, occupation, industry</li>
+                    <li><strong>Education:</strong> Educational attainment, enrollment status</li>
+                    <li><strong>Housing:</strong> Housing tenure, costs, unit characteristics (ACS)</li>
+                    <li><strong>Labor Force:</strong> Hours worked, wages, union membership (CPS)</li>
+                </ul>
+            </div>
+
+            <div class="about-section">
+                <h2>Tools & Technologies</h2>
+                <ul class="tech-list">
+                    <li>Data Processing: Python, Pandas, NumPy for survey data analysis</li>
+                    <li>Statistical Analysis: R, SAS survey procedures for weighted estimates</li>
+                    <li>Visualization: D3.js, Plotly for interactive dashboards</li>
+                    <li>Web Stack: HTML5, CSS3, JavaScript for responsive design</li>
+                    <li>Data Source: IPUMS (www.ipums.org)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 ITWS 2110 Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>

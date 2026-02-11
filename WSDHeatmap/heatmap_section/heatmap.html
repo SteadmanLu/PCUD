@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- =================================================================
+             META TAGS - Basic page information and settings
+             ================================================================= -->
+        <meta charset="UTF-8"> <!-- Character encoding for proper text display -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on mobile -->
+        <title>Investment Income Visualization - Heatmap</title>
+        
+        <!-- =================================================================
+             STYLESHEETS - CSS files for page styling
+             ================================================================= -->
+        <link rel="stylesheet" href="./heatmap.css"> <!-- Main styles for this page -->
+        <link rel="stylesheet" href="../about_us_section/style.css"> <!-- Shared styles -->
+        
+        <!-- =================================================================
+             JAVASCRIPT LIBRARIES - External libraries loaded from CDNs
+             ================================================================= -->
+        <!-- TopoJSON: Converts TopoJSON format to GeoJSON for D3.js -->
+        <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+        
+        <!-- D3.js v7: Data visualization library for creating interactive maps -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        
+        <!-- Custom JavaScript: Our heatmap logic and functions -->
+        <script src="./heatmap.js"></script>
+    </head>
+    
+    <body>
+        <!-- =================================================================
+             HEADER - Top banner with site title
+             ================================================================= -->
+        <header>Investment Income Visualization</header>
+        
+        <!-- =================================================================
+             NAVIGATION BAR - Main menu links
+             ================================================================= -->
+        <nav>
+            <a href="../about_us_section/index.html">Home</a>
+            <a href="heatmap.html">Heatmap</a>
+            <a href="../login/logout.php">Logout</a>
+        </nav>
+
+        <!-- =================================================================
+             MAIN CONTENT CONTAINER - Wraps all page content
+             ================================================================= -->
+        <div class="container">
+            <!-- Page title -->
+            <h1>Investment Income Heatmap</h1>
+
+            <!-- =================================================================
+                 MAIN GRID LAYOUT - Two-column layout (sidebar + map)
+                 Uses CSS Grid for responsive design
+                 ================================================================= -->
+            <div class="main-grid">
+                
+                <!-- =================================================================
+                     LEFT SIDEBAR - Contains controls and legend
+                     ================================================================= -->
+                <div class="sidebar">
+                    
+                    <!-- =================================================================
+                         CONTROL PANEL - User input controls
+                         ================================================================= -->
+                    <div class="control-panel">
+                        
+                        <!-- Map Detail Level Dropdown -->
+                        <div class="control-row">
+                            <div class="control-group">
+                                <label for="view-level">Map Detail Level:</label>
+                                <!-- Dropdown to switch between state/county/zip views -->
+                                <!-- onchange event triggers createHeatmap() when selection changes -->
+                                <select id="view-level" onchange="createHeatmap()">
+                                    <option value="state">State Level</option>
+                                    <option value="county">County Level</option>
+                                    <option value="zip">Zip Level</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- =================================================================
+                             YEAR SELECT (COMMENTED OUT)
+                             Could be used to filter data by year in future versions
+                             ================================================================= -->
+                        <!-- <div class="control-row">
+                            <div class="control-group">
+                                <label for="year-select">Select Year:</label>
+                                <select id="year-select">
+                                    <option value="">-- Select Year --</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                </select>
+                            </div>
+                        </div> -->
+
+                        <!-- Location Search Box -->
+                        <div class="control-row">
+                            <div class="control-group">
+                                <label for="search-location">Search Location:</label>
+                                <!-- Text input for searching states, counties, or ZIP codes -->
+                                <!-- onkeypress event triggers search when Enter key is pressed -->
+                                <input type="text" 
+                                       id="search-location" 
+                                       placeholder="Enter state, county, or zip..."
+                                       onkeypress="if(event.key === 'Enter') updateVisualization()">
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="button-group">
+                            <!-- Update Map: Applies search filter and updates visualization -->
+                            <button onclick="updateVisualization()">Update Map</button>
+                            
+                            <!-- Reset Filters: Clears all filters and returns to default view -->
+                            <button onclick="resetFilters()">Reset Filters</button>
+                            
+                            <!-- Export Data: Would download filtered data (placeholder function) -->
+                            <button onclick="exportData()">Export Data</button>
+                        </div>
+                    </div>
+
+                    <!-- =================================================================
+                         LEGEND - Color scale explanation
+                         Shows what colors mean (income levels)
+                         ================================================================= -->
+                    <div class="legend">
+                        <h2>Investment Income Scale</h2>
+                        <div class="legend-content">
+                            <!-- Gradient bar with labels -->
+                            <div class="legend-scale">
+                                <span>Low</span>
+                                <!-- CSS gradient showing color scale from yellow to red -->
+                                <div class="color-bar"></div>
+                                <span>High</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- =================================================================
+                     RIGHT SIDE - Heatmap visualization area
+                     ================================================================= -->
+                <div class="visualization-container">
+                    <h2>United States Investment Income Heatmap</h2>
+                    
+                    <!-- Main heatmap display area -->
+                    <!-- D3.js will inject SVG content here dynamically via JavaScript -->
+                    <div id="heatmap">
+                        <!-- Placeholder text shown before map loads -->
+                        <div class="instructions">
+                            Heatmap will be rendered here using D3.js<br>
+                            (Load IPUMS data and integrate D3.js visualization)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =================================================================
+                 INFO PANEL (HIDDEN)
+                 Originally used to show location details, but replaced by SVG overlay
+                 Kept in HTML for reference but hidden via CSS
+                 ================================================================= -->
+            <div class="info-panel">
+                <h2>Selected Location Information</h2>
+                <p><strong>Location:</strong> <span id="info-location">Click on a location to view details</span></p>
+                <p><strong>Investment Income:</strong> <span id="info-income">--</span></p>
+                <p><strong>Year:</strong> <span id="info-year">--</span></p>
+                <p><strong>Population:</strong> <span id="info-population">--</span></p>
+            </div>
+        </div>
+        
+        <!-- =================================================================
+             FOOTER - Team information and contact links
+             ================================================================= -->
+        <footer>
+            <!-- Team logo -->
+            <img src="../../Lab1/resources/images/Logo.png" alt="Team Logo" width="50" height="50" id="business_logo">
+            
+            <!-- Company name and team member email links -->
+            Business Analytics Inc. : "Get it done!"<br>
+            Team:
+            <a href="mailto:kellep2@rpi.edu">Paul Kellermann</a>
+            <a href="mailto:hascuj2@rpi.edu">Jake Hascup</a>
+            <a href="mailto:travih@rpi.edu">Henry Travis</a>
+            <a href="mailto:steadl2@rpi.edu">Lucas Steadman</a>
+        </footer>
+    </body>
+</html>
