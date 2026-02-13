@@ -4,469 +4,601 @@
             "name": "Old Fashioned",
             "type": "Cocktail",
             "flavor": ["Boozy", "Slightly Sweet", "Citrusy"],
-            "ingredients": ["2oz Bourbon or rye Whiskey", "1 Sugar Cube", "2-3 Dashes Angostura Bitters", "Orange Twist"],
-            "mix": "Muddle the sugar cube and bitters in a glass. Add whiskey and stir to combine add ice. Express an orange twist orver glass and drop it in."
+            "ingredients": ["2oz Bourbon or rye Whiskey", "1 Sugar Cube", "2-3 Dashes Angostura Bitters"],
+            "garnish": ["Orange Twist"],
+            "glass": "Rocks Glass",
+            "mix": "Add sugar cube to a rocks glass and muddle with 2-3 dashes of Angostura bitters. Add a large ice cube or several smaller cubes. Pour 2oz of bourbon or rye whiskey over the ice and stir well to combine. Express the orange twist oils over the drink and drop in as garnish."
         },
         {
             "name": "Whiskey Sour",
             "type": "Cocktail",
             "flavor": ["Tart", "Bright", "Balanced"],
-            "ingredients": ["2oz Bourbon", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "0.5oz Egg White", "Cherry or Lemon Twist to Garnish"],
-            "mix": "Stir al ingredients with ice in a glass until chilled. Strain into a martini glass. Garnish with a cherry."
+            "ingredients": ["2oz Bourbon", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "0.5oz Egg White"],
+            "garnish": ["Cherry", "Lemon Twist"],
+            "glass": "Coupe Glass",
+            "mix": "Dry shake bourbon, lemon juice, simple syrup, and egg white without ice until foamy. Add ice and shake vigorously for 10-12 seconds until well chilled and frothy. Strain into a chilled coupe glass. Garnish with a cherry and lemon twist."
         },
         {
             "name": "Manhattan",
             "type": "Cocktail",
             "flavor": ["Strong", "Rich", "Slightly Sweet"],
-            "ingredients": ["2oz Whiskey", "1oz Sweet Vermouth", "2 Dashes Angostura Bitters", "1 Cherry"],
-            "mix": "Stir al ingredients with ice in a glass until chilled. Strain into a martini glass. Garnish with a cherry."
+            "ingredients": ["2oz Whiskey", "1oz Sweet Vermouth", "2 Dashes Angostura Bitters"],
+            "garnish": ["Cherry"],
+            "glass": "Martini Glass",
+            "mix": "Stir whiskey, sweet vermouth, and angostura bitters with ice in a mixing glass until well chilled, about 30 seconds. Strain into a chilled martini glass. Garnish with a maraschino cherry."
         },
         {
             "name": "Classic Irish Coffee",
             "type": "Cocktail",
             "flavor": ["Warm", "Creamy", "Lightly Sweet", "Whiskey Kissed"],
-            "ingredients": ["1.5oz Whiskey", "1 tsp Brown Sugar", "4oz Hot Coffee", "Lightly Whipped Heavy Cream"],
-            "mix": "Warm the glass, add brown sugar to the glass. Pour coffee and stir to combine with the brown sugar, then add whiskey and stir again. Float whipped cream on top by pouring it over the back of a spoon."
+            "ingredients": ["1.5oz Whiskey", "1 tsp Brown Sugar", "4oz Hot Coffee"],
+            "garnish": ["Whipped Cream"],
+            "glass": "Irish Coffee Mug",
+            "mix": "Warm an Irish coffee mug by filling it with hot water, then discard. Add 1 tsp brown sugar to the warm mug. Pour 4oz of hot fresh coffee and stir until the sugar dissolves. Add 1.5oz Irish whiskey and stir gently to combine. Using the back of a bar spoon, gently float 1oz of heavy whipped cream over the surface of the drink by pouring it slowly."
         },
         {
             "name": "Cold Brew Irish Coffee",
             "type": "Cocktail",
             "flavor": ["Smooth", "Bold", "Chilled", "Slightly Sweet", "Irish Kick"],
             "ingredients": ["2oz Irish Whiskey", "4oz Cold Brew Coffee","0.5oz Simple Syrup", "1oz Heavy Cream"],
-            "mix": "Fill a glass with ice, Add cold brew, irish whiskey, and simple syrup. Stir to combine, then float the cream on top by pouring it over the back of a spoon."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour in 4oz of cold brew coffee, 2oz of Irish whiskey, and 0.5oz of simple syrup. Stir together until well combined. Using the back of a bar spoon, gently float the heavy cream over the surface of the drink."
         },
         {
             "name": "Tom Collins", 
             "type": "Cocktail",
             "flavor": ["Tart", "Fizzy"],
-            "ingredients": ["2oz Gin", "1oz Lemon Juice", "0.5-0.75oz Simple Syrup", "Soda Water", "Lemon Twist"],
-            "mix": "Shake gin, lemon juice, and syrup with ice. Strain into a tall glass with ice. Top with soda water and garnish with the lemon twist"
+            "ingredients": ["2oz Gin", "1oz Lemon Juice", "0.5-0.75oz Simple Syrup", "Soda Water"],
+            "garnish": ["Lemon Twist"],
+            "glass": "Collins Glass",
+            "mix": "Shake 2oz gin, 1oz fresh lemon juice, and 0.5-0.75oz simple syrup with ice for 10-12 seconds. Strain into a collins glass filled with fresh ice. Top with 2-4oz of cold soda water and stir gently. Garnish with a lemon twist."
         },
         {
-            "name": "Negroi",
+            "name": "Negroni",
             "type": "Cocktail",
             "flavor": ["Bitter", "Bold", "Smooth"],
-            "ingredients": ["1oz Gin", "1oz Campari", "1oz Sweet Vermouth", "Orange Peel"],
-            "mix": "Stir all ingredients over ice, strain into glass with ice. Garnish with an orange peel."
+            "ingredients": ["1oz Gin", "1oz Campari", "1oz Sweet Vermouth"],
+            "garnish": ["Orange Peel"],
+            "glass": "Rocks Glass",
+            "mix": "Add 1oz each of gin, Campari, and sweet vermouth to a rocks glass filled with large ice cubes. Stir for about 10 seconds until well chilled. Express the oils from an orange peel over the surface and drop it in as garnish."
         },
         {
             "name": "Dark 'n Stormy",
             "type": "Cocktail",
             "flavor": ["Spicy", "Citrusy", "Slightly Sweet", "Ginger Kick"],
-            "ingredients": ["2oz Dark Rum", "4-5oz Ginger Beer", "0.5oz Lime Juice", "Lime Wedge"],
-            "mix": "Fill a glass with ice, then add ginger beer and lime juice. Then float rum on top by pouring it over the back of a spoon. Top it off with a lime wedge"
+            "ingredients": ["2oz Dark Rum", "4-5oz Ginger Beer", "0.5oz Lime Juice"],
+            "garnish": ["Lime Wedge"],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Add 4-5oz of quality ginger beer and 0.5oz fresh lime juice. Float 2oz of dark rum on top by pouring it carefully over the back of a bar spoon. Stir gently to combine. Top with a lime wedge."
         },
         {
             "name": "Banana Jack",
             "type": "Cocktail",
             "flavor": ["Smooth", "Sweet", "Whiskey Warmth", "Banana Creamyness"],
             "ingredients": ["1.5oz Jack Daniels", "1oz Banana Liquour", "0.5oz Lemon Juice", "0.25oz Simple Syrup", "Splash of Ginger Beer"],
-            "mix": "Fill a shaker with ice, add Jack Daniel's, banana liquour, and lemon juice. Shake and strain into a glass over ice. Top with a splash of ginger beer."
+            "glass": "Highball Glass",
+            "mix": "Fill a shaker with ice and combine 1.5oz Jack Daniel's, 1oz banana liqueur, 0.5oz fresh lemon juice, and 0.25oz simple syrup. Shake vigorously for 10-12 seconds until well chilled. Strain into a highball glass filled with fresh ice and top with a splash of ginger beer. Stir gently to combine."
         },
         {
             "name": "Pimms Cup",
             "type": "Cocktail",
             "flavor": ["Light", "Herbal", "Citrusy"],
-            "ingredients": ["2oz Pimms No. 1", "Lemon Soda", "Mint", "Cucomber", "Orange", "Strawberry"],
-            "mix": "Pour the Pimms over ice in a glass, fill with lemon soda as desired. Then top with all of the garnishes."
+            "ingredients": ["2oz Pimms No. 1", "Lemon Soda"],
+            "garnish": ["Mint", "Cucumber Slices", "Orange Slices", "Strawberries"],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes and pour in 2oz of Pimm's No. 1. Fill to about three-quarters with cold lemon soda, roughly 4-6oz depending on preference. Stir gently to combine. Top generously with fresh mint sprigs, thin cucumber slices, orange slices, and fresh strawberry quarters for a refreshing summer drink."
         },
         {
             "name": "Gin & It",
             "type": "Cocktail",
             "flavor": ["Boozy", "Lightly Bitter", "Old School"],
             "ingredients": ["1.5oz Gin", "1.5oz Sweet Vermouth"],
-            "mix": "Stir over ice and strain into a chilled glass filled with ice."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Pour 1.5oz gin and 1.5oz sweet vermouth into a mixing glass filled with ice. Stir continuously for about 30 seconds until well chilled and properly diluted. Strain into a rocks glass filled with fresh ice. This classic pairing is best enjoyed slowly."
         },
         {
             "name": "English Garden",
             "type": "Cocktail",
             "flavor": ["Floral", "Crisp"],
             "ingredients": ["1.5oz Gin", "1oz Elderflower Liquour", "1oz Apple Juice", "0.5oz Lime Juice"],
-            "mix": "Shake all ingredients with ice and strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 1.5oz gin, 1oz elderflower liqueur, 1oz fresh apple juice, and 0.5oz fresh lime juice with ice. Shake vigorously for 10-12 seconds until well chilled. Double strain into a chilled coupe glass and serve up as a bright, floral aperitif."
         },
         {
             "name": "Shandy",
             "type": "Cocktail",
             "flavor": ["Light", "Low Alcohal"],
             "ingredients": ["Lager", "Sprite"],
-            "mix": "Fill half a glass wtih the lager, and the other half with the sprite."
+            "garnish": [],
+            "glass": "Pint Glass",
+            "mix": "Pour 6oz of cold lager into a pint glass. Slowly top with 6oz of cold Sprite, pouring gently to maintain the head. Stir lightly to combine and create a refreshing, easy-drinking beverage."
         },
         {
             "name": "Snakebite",
             "type": "Cocktail",
             "flavor": ["Malty", "Low Alcohal"],
             "ingredients": ["Lager", "Cider"],
-            "mix": "Fill half a glass with the lager, and the other half with the cider."
+            "garnish": [],
+            "glass": "Pint Glass",
+            "mix": "Pour 6oz of cold lager into a pint glass. Carefully top with 6oz of cold cider, pouring gently down the side of the glass to maintain separation. The cider will naturally mix with the lager creating a smooth, balanced beverage. Serve immediately."
         },
         {
             "name": "Hot Toddy",
             "type": "Cocktail",
             "flavor": ["Boozy", "Tea"],
-            "ingredients": ["2oz Whiskey", "Hot Tea", "Honey", "Lemon Wedge", "Cloves"], 
-            "mix": "Build in a mug starting with the tea, stir gently to combine."
+            "ingredients": ["2oz Whiskey", "Hot Tea", "Honey"],
+            "garnish": ["Lemon Wedge", "Cloves"], 
+            "glass": "Mug",
+            "mix": "In a warm mug, combine 2oz whiskey with 1oz honey. Pour 4-6oz of hot tea (just below boiling) into the mug and stir well to dissolve the honey completely. The heat will gently warm the spirits and blend all flavors together. Serve with fresh lemon wedge and whole cloves for a warming, aromatic drink."
         },
         {
             "name": "Classic Margarita",
             "type": "Cocktail", 
             "flavor": ["Tart", "Citrusy", "Slightly Sweet", "Kiss of Salt"], 
-            "ingredients": ["2oz Tequila", "1oz Cointreau or Triple Sec", "1oz Lime Juice", "0.25-0.5oz Simple or Agave Syrup", "Salt", "Lime Wheel"],
-            "mix": "Run a lime wedge around the rim of our glass and dip the rim in salt. In a Shaker combine the tequila, cointreau, lime juice, and sweetener. Add ice then shake hard until well chilled. Strain into a glass with ice and garnish it with the lime wheel."
+            "ingredients": ["2oz Tequila", "1oz Cointreau or Triple Sec", "1oz Lime Juice", "0.25-0.5oz Simple or Agave Syrup", "Salt"],
+            "garnish": ["Lime Wheel"],
+            "glass": "Margarita Glass",
+            "mix": "Rub a lime wedge around the rim of a margarita glass and dip in coarse salt to coat. In a shaker, combine 2oz tequila, 1oz Cointreau, 1oz fresh lime juice, and 0.25-0.5oz simple syrup. Fill with ice and shake hard for 10-12 seconds. Strain into the salt-rimmed glass with fresh ice. Garnish with a lime wheel."
         },
         {
             "name": "Classic Mojito", 
             "type": "Cocktail",
             "flavor": ["Crisp", "Mint", "Citrusy", "Slightly Sweet"],
-            "ingredients": ["2oz White Rum", "0.75oz Lime Juice", "0.5-0.75oz Simple Syrup", "8-10 Mint Leaves", "Soda Water", "Lime Wedge"],
-            "mix": "In a glass muddle mint leaves with lime juice and simple syrup. Add rum and fill the glass with ice. Top the drink with soda water, stir gently to combine.  While combining bring the mint leaves from the top from the bottom. Garnish with a lime wedge."
+            "ingredients": ["2oz White Rum", "0.75oz Lime Juice", "0.5-0.75oz Simple Syrup", "8-10 Mint Leaves", "Soda Water"],
+            "garnish": ["Lime Wedge"],
+            "glass": "Collins Glass",
+            "mix": "Place 8-10 fresh mint leaves in a collins glass with 0.75oz lime juice and 0.5-0.75oz simple syrup. Gently muddle to bruise the mint without shredding the leaves. Add 2oz white rum and fill the glass with crushed ice. Top with 2-4oz of soda water and stir gently from bottom to top. Garnish with a lime wedge and a sprig of mint."
         },
         {
             "name": "Classic Mai Tai", 
             "type": "Cocktail", 
             "flavor": ["Tart Lime", "Sweet Orange", "Nutty Orgeat", "Bold Rum"], 
-            "ingredients": ["1oz Light Rum", "1oz Dark Rum", "0.75oz Lime Juice", "0.5oz Orange Curacao", "0.25oz Simple Syrup", "0.25 Orgeat Syrup", "Lime Wedge"], 
-            "mix": "Shake all Ingredients with ice until well chilled. Strain into a glass with crushed ice. Garnish with a lime wedge."
+            "ingredients": ["1oz Light Rum", "1oz Dark Rum", "0.75oz Lime Juice", "0.5oz Orange Curacao", "0.25oz Simple Syrup", "0.25 Orgeat Syrup"],
+            "garnish": ["Lime Wedge"], 
+            "glass": "Rocks Glass",
+            "mix": "Fill a rocks glass with crushed ice. In a shaker, combine 1oz light rum, 1oz dark rum, 0.75oz fresh lime juice, 0.5oz orange curacao, 0.25oz simple syrup, and 0.25oz orgeat syrup. Shake well with ice for 12-15 seconds. Strain into the glass filled with crushed ice. Garnish with a lime wedge and serve with a straw."
         },
         {
             "name": "Gimlet", 
             "type": "Cocktail",
             "flavor": ["Crisp", "Tart", "Sweet"], 
-            "ingredients": ["2oz Gin", "0.75oz Lime Juice", "0.5-0.75oz Simple Syrup"], 
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass, garnish with a lime wheel or a twist."
+            "ingredients": ["2oz Gin", "0.75oz Lime Juice", "0.5-0.75oz Simple Syrup"],
+            "garnish": ["Lime Wheel", "Lime Twist"],
+            "glass": "Coupe Glass",
+            "mix": "Shake 2oz gin, 0.75oz fresh lime juice, and 0.5-0.75oz simple syrup with ice for 10-12 seconds until well chilled. Strain into a chilled coupe glass. Garnish with either a lime wheel or lime twist and serve up."
         },
         {
             "name": "Boulevardier", 
             "type": "Cocktail",
             "flavor": ["Bold", "Bitter", "Sweet", "Complex", "Warm"],
             "ingredients": ["1oz Bourbon", "1oz Sweet Vermouth", "1oz Campari"],
-            "mix": "Add all ingredients to a mixing glass with ice. Stir until well chilled. Then strain into a chilled glass. Garnish with an orange twist."
+            "garnish": ["Orange Twist"],
+            "glass": "Rocks Glass",
+            "mix": "Pour 1oz bourbon, 1oz sweet vermouth, and 1oz Campari into a mixing glass filled with ice. Stir continuously for about 30 seconds until well chilled and integrated. Strain into a rocks glass filled with one large ice cube and express an orange twist over the drink, dropping it in as garnish."
         },
         {
             "name": "London Fog Iced Tea",
             "type": "Tea",
             "flavor": ["Creamy", "Floral", "Citrusy", "Vanilla"],
             "ingredients": ["1 Earl Grey Tea Bag", "1 Cup Hot Water", "0.5 Cups Cold Milk", "1 Teaspoon Vanilla Syrup"],
-            "mix": "Steep the earl grey in hot water for 5-7 minuets. Fill a tall glass with ice, remove the tea bag and let the tea cool. In a seperate glass mix the milk and syrup, then pour the cooled tea over the ice and top with the vanilla milk mix. Stir to combine."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Steep 1 Earl Grey tea bag in 8oz of hot water for 5-7 minutes. While steeping, pour 4oz of cold milk into a highball glass with 1 tsp vanilla syrup and mix well. Remove the tea bag, pour the hot tea over ice into the glass, and stir gently to combine. The hot and cold mixture creates a beautiful creamy, floral iced tea."
         },
         {
             "name": "Butterfly Peaflower Lemonade Tea",
             "type": "Tea",
             "flavor": ["Mildly Floral", "Slightly Earthy", "Bright Citrus Snap"],
             "ingredients": ["1 Butterfly Peaflower Tea Bag", "1 Cup Hot Water", "0.5 Cups Lemon Juice", "2 Teaspoons Simple Syrup", "Honey or Sugar"],
-            "mix": "Steep the tea for 5-7 minutes with hot water, remove the tea bag and add sweetener for taste. Let the tea chill, fill a glass with ice then pour the tea in. Afterwards add lemon juice if you've done it right it should turn purple."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Steep 1 butterfly peaflower tea bag in 8oz of hot water for 5-7 minutes. Remove the tea bag and add 2 tsp simple syrup, stirring to combine. Pour the hot tea into a highball glass filled with ice and top with 4oz of fresh lemon juice. Stir well and the tea will turn from blue to purple as the acid interacts with the peaflower extract, creating a magical color-changing beverage."
         },
         {
             "name": "Banana Jack Sour",
             "type": "Cocktail",
             "flavor": ["Banana Creamyness", "Whiskey Warm", "Lemon Tart"],
             "ingredients": ["2oz Whiskey", "1oz Banana Liquour", "0.5oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White", "1oz Chilled Ginger Beer"],
-            "mix": "Combine whiskey, banana liquour, lemon juice, simple syrup, and the egg white in a shaker. Shake hard before adding ice and shaking again until chilled and frothy. Strain into a glass with ice, topping with ginger beer."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "In a shaker, combine 2oz whiskey, 1oz banana liqueur, 0.5oz fresh lemon juice, 0.5oz simple syrup, and 1 egg white without ice. Dry shake vigorously for 10-12 seconds until foamy. Add ice and shake hard for another 10-12 seconds until well chilled. Strain into a highball glass filled with ice and top with 1oz of chilled ginger beer. The ginger beer float adds spice and carbonation to the creamy banana-whiskey sour."
         },
         {
             "name": "Classic Pina Colada",
             "type": "Cocktail",
             "flavor": ["Creamy", "Tropical", "Sweet"],
             "ingredients": ["2oz White Rum", "1oz Coconut Cream", "1.5-2oz Pineapple Juice", "1/2 Cups Crushed Ice"],
-            "mix": "Toss everything into a blender. Then blend until sweet and slushy before pouring into a glass"
+            "garnish": [],
+            "glass": "Hurricane Glass",
+            "mix": "Combine 2oz white rum, 1oz cream of coconut, 1.5-2oz fresh pineapple juice, and 0.5 cups of crushed ice in a blender. Blend until smooth and creamy, about 20-30 seconds. Pour into a chilled hurricane glass and serve with a straw."
         },
         {
             "name": "Long Island Iced Tea",
             "type": "Cocktail",
             "flavor": ["Smooth", "Citrusy"],
             "ingredients": ["0.5oz Vodka", "0.5oz White Rum", "0.5oz Gin", "0.5oz Tequila", "0.5oz Triple Sec", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "Cola"],
-            "mix": "Fill a glass wtih ice, add all spirites, lemon juice and simple syrup. Stir or shake to combine then top with cola"
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "Fill a collins glass with ice. Add 0.5oz each of vodka, white rum, gin, tequila, and triple sec, along with 0.75oz fresh lemon juice and 0.5oz simple syrup. Shake vigorously or stir well for 10-12 seconds to combine all the spirits. Top with 1-2oz of cola and stir gently one more time. Serve with a straw and ice."
         },
         {
             "name": "Dalgona Coffee",
             "type": "Coffee",
             "flavor": ["Sweet", "Bold", "Creamy"],
             "ingredients": ["2 Tablespoon Instant Coffee", "2 Tablespoon Sugar", "1 Cup Milk", "Hot Water"],
-            "mix": "Combine the instant coffee, sugar, and hot water in a bowl. Whip until it becomes thick, glossy, and forms soft peaks. Pour milk into glass over ice. Dollop whipped coffee over the milk. Stir togther before drinking"
+            "garnish": [],
+            "glass": "Tall Glass",
+            "mix": "In a small bowl, combine 2 tablespoons instant coffee, 2 tablespoons sugar, and 2 tablespoons hot water. Using a whisk or electric beater, whip the mixture for 3-5 minutes until thick, glossy, and forming soft peaks (it should be tan-colored and fluffy). Pour 8oz of cold milk into a tall glass filled with ice. Dollop the whipped coffee mixture over the milk, creating a beautiful layered effect. Stir together before drinking to blend the sweet coffee whip with the cold milk."
         },
         {
             "name": "Britanico", 
             "type": "Coffee",
             "flavor": ["Strong", "Smooth", "No-frils"], 
             "ingredients": ["2oz Espresso", "3-4oz Hot Water"],
-            "mix": "Pull a double shot using a espresso machine. Boil water into mug before adding espresso."
+            "garnish": [],
+            "glass": "Coffee Mug",
+            "mix": "Pour 3-4oz of hot water into a warm coffee mug (preheat if possible). Using an espresso machine, pull a double shot of espresso (2oz) directly into the hot water. Stir gently to combine the concentrated espresso with the hot water. Serve immediately for a strong, bold coffee drink."
         },
         {
             "name": "Sazerac",
             "type": "Cocktail",
             "flavor": ["Spicy", "Herbal", "Bitter - Sweet"],
-            "ingredients": ["2oz Rye Whiskey", "1 Sugar Cube", "3 Dashes Peychauds Bitters", "Absinthe", "Lemon Peel"],
-            "mix": "Chill a glass. Muddle sugar and bitters add rye into a different glass. Stir with ice until chilled. Add a splash of absinthe, swirl to coat, then dump. Strin rye mix into the chilled glass then express the lemon peel and drop it in."
+            "ingredients": ["2oz Rye Whiskey", "1 Sugar Cube", "3 Dashes Peychauds Bitters", "Absinthe"],
+            "garnish": ["Lemon Peel"],
+            "glass": "Rocks Glass",
+            "mix": "Chill a rocks glass with ice water and absinthe. Coat the interior and discard excess. In a separate mixing glass, muddle a sugar cube with 3 dashes of Peychaud's bitters. Add 2oz of rye whiskey and stir with ice until well chilled. Strain into the prepared glass. Express the oils from a lemon peel over the surface and drop it in."
         },
         {
             "name": "Clover Club",
             "type": "Cocktail",
             "flavor": ["Tart Raspberry - Lemon", "Gin Backbone"],
             "ingredients": ["1.5oz Gin", "0.5oz Raspberry Syrup", "0.75oz Lemon Juice", "1 Egg White"],
-            "mix": "Shake all ingredients without ice to froth the egg white. Add ice, then shake until the glass is well chilled and foamy. Strain into a glass with ice."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 1.5oz gin, 0.5oz raspberry syrup, 0.75oz fresh lemon juice, and 1 egg white. Dry shake (without ice) for 10-12 seconds to froth the egg white and create a fluffy foam. Add ice and shake vigorously for another 10-12 seconds until well chilled. Strain into a chilled coupe glass with a fine double strain. Serve up with the pink foam on top."
         },
         {
             "name": "Basil Gin Fizz", 
             "type": "Cocktail",
             "flavor": ["Fresh", "Herbal", "Lemon", "Creamy Foam"],
             "ingredients": ["2oz Gin", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White", "3-4 Basil Leaves", "Soda Water"],
-            "mix": "Muddle basil with lemon juice and syrup in a shaker. Add gin and egg white, dry shake. Add ice and shake again. Strain into a glass and top with soda water."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "Place 3-4 fresh basil leaves in a shaker with 0.75oz fresh lemon juice and 0.5oz simple syrup. Gently muddle to release the basil oils. Add 2oz gin and 1 egg white and dry shake (without ice) for 10-12 seconds until foamy. Add ice and shake vigorously for another 10-12 seconds. Strain into a collins glass filled with fresh ice and top with 2-3oz of cold soda water. Stir gently from bottom to top and serve with a basil sprig."
         },
         {
             "name": "Pink Lady",
             "type": "Cocktail",
             "flavor": ["Tart", "Floral", "Touch Sweet"],
             "ingredients": ["1.5oz Gin", "0.5 Apple Brandy", "0.5oz Lemon Juice", "1 Egg White"],
-            "mix": "Shake all ingredients without ice to froth. Add ice shake again till chilled and foamy. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 1.5oz gin, 0.5oz apple brandy, 0.5oz fresh lemon juice, and 1 egg white. Dry shake (without ice) for 10-12 seconds to create fluffy foam. Add ice and shake vigorously for another 10-12 seconds until well chilled and frothy. Strain into a chilled coupe glass using a fine double strain. The delicate pink color comes from the apple brandy and egg white foam."
         },
         {
             "name": "Flip",
             "type": "Cocktail",
             "flavor": ["Rich", "Warm", "Slightly Sweet", "Spirit Forward"],
-            "ingredients": ["2oz Dark Rum, Brandy, or Whiskey", "0.5oz Simple Syrup", "1 Egg", "Grated Nutmeg"],
-            "mix": "Shake all ingredients without ice till frothed. Add ice shake again. Strain into a chilled glass and garnish with nutmeg."
+            "ingredients": ["2oz Dark Rum, Brandy, or Whiskey", "0.5oz Simple Syrup", "1 Egg"],
+            "garnish": ["Grated Nutmeg"],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 2oz dark rum (or brandy or whiskey), 0.5oz simple syrup, and 1 whole egg. Shake vigorously without ice for 10-12 seconds to froth and emulsify the egg. Add ice and shake again for 8-10 seconds until well chilled. Strain into a chilled coupe glass and dust generously with freshly grated nutmeg. Serve up for a warming, creamy sipper."
         },
         {
             "name": "Eggnog", 
             "type": "Cocktail",
             "flavor": ["Rich", "Spiced", "Creamy"],
-            "ingredients": ["1oz Bourbon", "1oz Dark Rum", "0.5oz Simple Syrup", "1 Egg", "1oz Whole Milk", "1oz Heavy Cream", "Nutmeg", "Cinnamon"],
-            "mix": "Combine all ingredients without ice, shake thourouly to emulsify. Add ice and shake again. Strain into a small mug. Garnish with nutmeg and cinnamon."
+            "ingredients": ["1oz Bourbon", "1oz Dark Rum", "0.5oz Simple Syrup", "1 Egg", "1oz Whole Milk", "1oz Heavy Cream"],
+            "garnish": ["Nutmeg", "Cinnamon"],
+            "glass": "Coffee Mug",
+            "mix": "In a shaker, combine 1oz bourbon, 1oz dark rum, 0.5oz simple syrup, 1 whole egg, 1oz whole milk, and 1oz heavy cream. Shake very thoroughly without ice for 15-20 seconds to fully emulsify and combine all ingredients until creamy and frothy. Add ice and shake again for 8-10 seconds. Strain into a warm coffee mug or small coupe glass. Dust the top with freshly grated nutmeg and a pinch of cinnamon for a festive, warming drink."
         },
         {
             "name": "Ramos Gin Fizz",
             "type": "Cocktail",
             "flavor": ["Citrusy", "Floral", "Creamy", "Subtle Gin"],
             "ingredients": ["2oz Gin", "0.5oz Lemon Juice", "0.5oz Lime Juice", "1oz Simple Syrup", "1oz Heavy Cream", "1 Egg White", "2 Drops Orange Flower Water", "Soda Water"],
-            "mix": "Shake everything but soda with no ice, add ice and shake again for 1-2 minutes. Strain into a chilled glass slowly top with soda water."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 2oz gin, 0.5oz fresh lemon juice, 0.5oz fresh lime juice, 1oz simple syrup, 1oz heavy cream, 1 egg white, and 2 drops of orange flower water. Dry shake (without ice) vigorously for 15-20 seconds to create a luxurious foam. Add ice and continue shaking for 1-2 minutes until extremely frothy and well chilled. Strain into a chilled collins glass and slowly top with 2-3oz of cold soda water. Serve immediately for the signature creamy texture."
         },
         {
             "name": "Golden Fizz",
             "type": "Cocktail",
             "flavor": ["Smooth", "Mellow", "Bright Citrus"],
             "ingredients": ["2oz Gin", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg Yolk", "Soda Water"],
-            "mix": "Shake gin, lemon, syrup, and yolk without ice. Add ice and shake again until chilled and creamy. Strain then top with soda water"
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 2oz gin, 0.75oz fresh lemon juice, 0.5oz simple syrup, and 1 egg yolk. Dry shake (without ice) for 10-12 seconds to partially emulsify. Add ice and shake vigorously for another 10-12 seconds until well chilled and creamy. Strain into a chilled collins glass and top with 2-3oz of cold soda water. Stir gently and serve with a straw."
         },
         {
             "name": "Silver Fizz",
             "type": "Cocktail",
             "flavor": ["2oz Gin", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White", "Soda Water"],
             "ingredients": ["2oz Gin", "0.75oz Lemon Juice", "0.25oz Simple Syrup", "1 Egg White", "Soda Water"],
-            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass and top with soda."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 2oz gin, 0.75oz fresh lemon juice, 0.25oz simple syrup, and 1 egg white. Dry shake (without ice) for 10-12 seconds to create fluffy foam. Add ice and shake vigorously for another 10-12 seconds until well chilled and foamy. Strain into a chilled collins glass and top with 2-3oz of cold soda water. Stir gently from bottom to top and serve immediately with a straw."
         },
         {
             "name": "Royal Fizz",
             "type": "Cocktail",
             "flavor": ["Rich", "Full Bodied", "Creamy", "Smooth"],
             "ingredients": ["2oz Gin", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg", "Soda Water"],
-            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass then top with soda."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 2oz gin, 0.75oz fresh lemon juice, 0.5oz simple syrup, and 1 whole egg. Dry shake (without ice) for 10-12 seconds to create luxurious foam. Add ice and shake vigorously for another 10-12 seconds until well chilled and creamy. Strain into a chilled collins glass and slowly top with 2-3oz of cold soda water. Stir very gently from bottom to top and serve immediately for a supremely creamy, rich fizz."
         },
         {
             "name": "Whiskey Silver Fizz",
             "type": "Cocktail",
             "flavor": ["Smooth", "Citrusy", "Slightly Spicy"],
             "ingredients": ["2oz Bourbon or rye Whiskey", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White", "Soda Water"],
-            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass and top with soda."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 2oz bourbon or rye whiskey, 0.75oz fresh lemon juice, 0.5oz simple syrup, and 1 egg white. Dry shake (without ice) for 10-12 seconds until foamy. Add ice and shake vigorously for another 10-12 seconds until well chilled and frothy. Strain into a chilled collins glass and top with 2-3oz of cold soda water. Stir gently and serve with a straw."
         },
         {
             "name": "Whiskey Golden Fizz",
             "type": "Cocktail",
             "flavor": ["Mellow Whiskey", "Creamy Lemon Softness"],
             "ingredients": ["2oz Bourbon or rye Whiskey", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg Yolk", "Soda Water"],
-            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass and top with soda."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 2oz bourbon or rye whiskey, 0.75oz fresh lemon juice, 0.5oz simple syrup, and 1 egg yolk. Dry shake (without ice) for 10-12 seconds to partially emulsify. Add ice and shake vigorously for another 10-12 seconds until well chilled and creamy. Strain into a chilled collins glass and top with 2-3oz of cold soda water. Stir gently and serve with a straw."
         },
         {
             "name": "Whiskey Royal Fizz",
             "type": "Cocktail",
             "flavor": ["Deep", "Rich", "Creamy Complexity"],
             "ingredients": ["2oz Bourbon or rye Whiskey", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg", "Soda Water"],
-            "mix": "Dry Shake all ingredients except soda without ice. Add ice then shake again until chilled and foamy. Strain into a chilled glass and top with soda."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 2oz bourbon or rye whiskey, 0.75oz fresh lemon juice, 0.5oz simple syrup, and 1 whole egg. Dry shake (without ice) for 10-12 seconds to create luxurious foam. Add ice and shake vigorously for another 10-12 seconds until well chilled and creamy. Strain into a chilled collins glass and slowly top with 2-3oz of cold soda water. Stir gently from bottom to top and serve immediately."
         },
         {
             "name": "Frozen Irish Flip",
             "type": "Cocktail",
             "flavor": ["Smooth", "Cold Brew", "Whiskey Warmth"],
             "ingredients": ["2oz Cold Brew Concentrate", "1oz Irish Whiskey", "0.5oz Maple Syrup", "1 Egg"],
-            "mix": "Blend everything until smooth and frothy, pour into a chilled glass. Garnish with shaved chocolate, nutmeg or dollop of whipped cream."
+            "garnish": ["Shaved Chocolate", "Nutmeg", "Whipped Cream"],
+            "glass": "Tall Glass",
+            "mix": "In a blender, combine 2oz cold brew concentrate, 1oz Irish whiskey, 0.5oz maple syrup, 1 whole egg, and 1 cup of crushed ice. Blend until smooth and frothy, about 15-20 seconds until creamy and thick. Pour into a tall chilled glass and top with a dollop of whipped cream. Dust with shaved chocolate and freshly grated nutmeg for an elegant frozen coffee drink with whiskey warmth."
         },
         {
             "name": "White Russian",
             "type": "Cocktail",
             "flavor": ["Creamy", "Coffee Forward", "Slightly Sweet"],
             "ingredients": ["2oz Vodka", "1oz Coffee Liquour", "1oz Heavy Cream"],
-            "mix": "Fill a glass with ice, add vodka and coffee liquour. Float cream on top using the back of a spoon."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Fill a rocks glass with ice cubes. Pour 2oz vodka and 1oz coffee liqueur, then stir to combine. Slowly float 1oz of heavy cream over the back of a bar spoon across the surface of the drink, creating a creamy layer on top. Serve as-is, stirring before each sip to blend the cream with the coffee and vodka."
         },
         {
             "name": "Hemingway Daiquri",
             "type": "Cocktail",
             "flavor": ["Dry", "Tart", "Citrusy", "Lightly Bitter"],
             "ingredients": ["2oz White Rum", "0.5oz Lime Juice", "0.75oz Grapefruit Juice", "0.5oz Maraschino Liquour"],
-            "mix": "Add all ingredients to a shaker with ice. Shake until well chilled, then strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 2oz white rum, 0.5oz fresh lime juice, 0.75oz fresh grapefruit juice, and 0.5oz maraschino liqueur. Fill with ice and shake vigorously for 10-12 seconds until well chilled. Strain into a chilled coupe glass using a fine double strain. Serve up for a dry, citrus-forward daiquiri variation."
         },
         {
             "name": "Vesper Martini", 
             "type": "Cocktail",
             "flavor": ["Strong", "Smooth", "Citrus Bright"],
             "ingredients": ["3oz Gin", "1oz Vodka", "0.5oz Dry Vermouth"],
-            "mix": "Stir or shake all ingredients with ice untill ice-cold. Strain into a chilled martini glass. Garnish with a lemon twist."
+            "garnish": ["Lemon Twist"],
+            "glass": "Martini Glass",
+            "mix": "In a mixing glass filled with ice, combine 3oz gin, 1oz vodka, and 0.5oz dry vermouth. Stir continuously for about 30 seconds until very cold and well-diluted. Strain into a chilled martini glass and express the oils from a lemon twist over the surface, placing the twist into the drink. Serve immediately."
         },
         {
             "name": "Paper Plane",
             "type": "Cocktail",
             "flavor": ["Bitter - Sweet", "Citrusy", "Balanced"],
             "ingredients": ["0.75oz Bourbon", "0.75oz Aperol", "0.75oz Lemon Juice"],
-            "mix": "Add all ingredients to a shaker with ice. Shake vigorously until well chilled, before straining into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 0.75oz bourbon, 0.75oz Aperol, and 0.75oz fresh lemon juice. Fill with ice and shake vigorously for 10-12 seconds until well chilled. Strain into a chilled coupe glass using a fine double strain. Serve up for a beautifully balanced aperitif with herbal, bitter, and citrus notes."
         },
         {
             "name": "Old Cuban", 
             "type": "Cocktail",
             "flavor": ["Minty", "Bright", "Bubbly Finish"],
             "ingredients": ["1.5oz aged Rum", "0.75oz Lime Juice", "0.75oz Simple Syrup", "2 Dashes Angostura Bitters", "6-8 Mint Leaves", "Champagne"],
-            "mix": "Gently muddle mint, lime juice, and syrup in a shaker. Add rum and bitters before shaking hard until well chilled. Strain into a chilled glass then top with champagne."
+            "garnish": [],
+            "glass": "Champagne Flute",
+            "mix": "In a shaker, place 6-8 fresh mint leaves with 0.75oz lime juice and 0.75oz simple syrup. Gently muddle to express mint oils without shredding the leaves. Add 1.5oz aged rum and 2 dashes Angostura bitters. Fill with ice and shake hard for 10-12 seconds until well chilled. Strain into a champagne flute and slowly top with 2-3oz of cold champagne. The effervescence will lift the mint and create a sophisticated, bubbly finish."
         },
         {
             "name": "Cuba Libre", 
             "type": "Cocktail",
             "flavor": ["Cola", "Lime", "Bold Rum"],
             "ingredients": ["2oz White Rum", "0.5oz Lime Juice", "Coca-Cola"],
-            "mix": "Fill a glass with ice, add rum and lime juice before topping with coca-cola."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour 2oz white rum and 0.5oz fresh lime juice into the glass and stir gently. Top with 4-5oz of cold Coca-Cola and give it one final stir to combine. The lime juice adds a bright citrus edge to this classic rum and cola drink. Serve with a straw."
         },
         {
             "name": "Brandy Alexander", 
             "type": "Cocktail",
             "flavor": ["Creamy", "Chocolate", "Brandy Notes"],
             "ingredients": ["1oz Brandy", "1oz Dark Cream de Cacao", "1oz Heavy Cream"],
-            "mix": "Shake all ingredients with ice. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 1oz brandy, 1oz dark crème de cacao, and 1oz heavy cream. Fill with ice and shake vigorously for 10-12 seconds until well chilled and frothy. Strain into a chilled coupe glass using a fine double strain. Serve up and dust lightly with freshly grated nutmeg for an elegant, creamy after-dinner drink."
         },
         {
             "name": "Mudslide", 
             "type": "Cocktail",
             "flavor": ["Chocolate", "Coffee Forward", "Creamy"], 
             "ingredients": ["1oz Vodka", "1oz Coffee Liquour", "1oz Irish Cream"],
-            "mix": "Shake all ingredients with ice and strain into a chilled glass with ice."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a shaker, combine 1oz vodka, 1oz coffee liqueur, and 1oz Irish cream. Fill with ice and shake vigorously for 10-12 seconds until well chilled and frothy. Strain into a rocks glass filled with fresh ice. The combination of coffee and chocolate creates an indulgent dessert-like cocktail."
         },
         {
             "name": "Jack And Coke",
             "type": "Cocktail",
             "flavor": ["Sweet", "Smoky", "Cola Forward"],
             "ingredients": ["2oz Jack Daniel's", "Coca-Cola", "0.25oz Lime Juice"],
-            "mix": "Fill a glass with ice, pour in jack and lime juice before topping coke."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour 2oz Jack Daniel's Tennessee whiskey and 0.25oz fresh lime juice into the glass and stir briefly. Top with 4-5oz of cold Coca-Cola and stir gently to combine. The lime juice brightens the cola and complements the whiskey's subtle vanilla notes. Serve with a straw."
         },
         {
             "name": "Whiskey Ginger", 
             "type": "Cocktail",
             "flavor": ["Zesty", "Lightly Sweet", "Sharp Ginger Heat"],
             "ingredients": ["2oz Jack Daniel's", "Ginger Ale", "0.25oz Lime Juice"],
-            "mix": "Fill a glass with ice, pour in jack and lime juice before topping ginger ale."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour 2oz Jack Daniel's Tennessee whiskey and 0.25oz fresh lime juice, then stir briefly. Top with 4-5oz of cold ginger ale and stir gently. The spicy ginger and whiskey create a bold, zesty combination. The lime juice adds brightness. Serve with a straw."
         },
         {
             "name": "Lynchburg Lemonade",
             "type": "Cocktail",
             "flavor": ["Tart", "Sweet", "Smooth"],
             "ingredients": ["1.5oz Jack Daniels", "1oz Triple Sec", "1oz Lemon Juice", "1oz Simple Syrup", "Sprite or Club Soda"],
-            "mix": "Shake everything but soda with ice. Strain into a chilled glass slowly top with soda."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 1.5oz Jack Daniel's Tennessee whiskey, 1oz triple sec, 1oz fresh lemon juice, and 1oz simple syrup. Fill with ice and shake vigorously for 10-12 seconds until well chilled. Strain into a collins glass filled with fresh ice and top with 2-3oz of cold Sprite or club soda. Stir gently from bottom to top and serve with a straw for a refreshing, citrus-forward lemonade."
         },
         {
             "name": "The Troublemaker", 
             "type": "Cocktail",
             "flavor": ["Bold", "Slightly Bitter", "Caffeine Upper Cut", "Whiskey Kissed"],
             "ingredients": ["1.5oz Jack Daniels", "3oz Cold Brew Coffee", "0.5oz Coffee Liquour", "0.25-0.5oz Simple Syrup"],
-            "mix": "Build in a glass over ice, stir to chill and combine."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour 1.5oz Jack Daniel's Tennessee whiskey, 3oz cold brew coffee, and 0.5oz coffee liqueur. Add 0.25-0.5oz simple syrup depending on sweetness preference. Stir well to combine and chill. The coffee liqueur deepens the coffee flavor while the whiskey adds warmth. Serve with a straw."
         },
         {
             "name": "Jack Apple Spritz",
             "type": "Cocktail",
             "flavor": ["Crisp Apple", "Lightly Sweet", "Fizzy", "Refreshing"],
             "ingredients": ["1.5oz Jack Daniels Apple", "0.5oz Lemon Juice", "2oz Club Soda", "1oz Apple Juice"],
-            "mix": "Build in a glass over ice, stir to chill and combine."
+            "garnish": [],
+            "glass": "Wine Glass",
+            "mix": "Pour 1.5oz Jack Daniel's Apple into a wine glass over ice. Add 1oz fresh apple juice and 0.5oz fresh lemon juice, then stir gently to combine. Top with 2oz of cold club soda and stir once more lightly. The apple and citrus create a bright, refreshing spritz with whiskey sophistication."
         },
         {
             "name": "Frozen Jack And Cherry Coke Slushy",
             "type": "Cocktail",
             "flavor": ["Sweet Cola", "Cherry Pop", "Whiskey Warmth"],
             "ingredients": ["2oz Jack Daniel's", "6oz Cherry Cola"],
-            "mix": "Blend everything until smooth and frothy, pour into a chilled glass."
+            "garnish": [],
+            "glass": "Tall Glass",
+            "mix": "In a blender, combine 2oz Jack Daniel's Tennessee whiskey, 6oz Cherry Cola, and 1 cup of crushed ice. Blend until smooth and slushy, about 15-20 seconds. Pour into a tall chilled glass and serve immediately with a thick straw to handle the icy texture. The cherry cola sweetness balances the whiskey warmth."
         },
         {
             "name": "Nojito",
             "type": "Mocktail",
             "flavor": ["Refreshing", "Zesty", "Herbal"],
             "ingredients": ["6-8 Mint Leaves", "0.75oz Lime Juice", "0.5oz Simple Syrup", "Club Soda"],
-            "mix": "Muddle mint, lime and syrup in a glass. Add ice and top with soda, stir gently to combine."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a collins glass, place 6-8 fresh mint leaves with 0.75oz lime juice and 0.5oz simple syrup. Gently muddle to bruise the mint and release oils without shredding the leaves. Fill the glass with crushed ice and top with 3-4oz of cold club soda. Stir gently from bottom to top using a bar spoon. The mint, lime, and fizz create a light, refreshing alcohol-free mojito."
         },
         {
             "name": "Peach Ginger Fizz", 
             "type": "Mocktail",
             "flavor": ["Bright", "Juicy", "Gingery"],
             "ingredients": ["2oz Peach Nectar", "0.5oz Lemon Juice", "2-3oz Ginger Beer"],
-            "mix": "Shake peach nectar and lemon juice with ice. Strain into a glass with ice. Top with ginger beer."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "In a shaker, combine 2oz peach nectar and 0.5oz fresh lemon juice. Fill with ice and shake for 5-8 seconds. Strain into a highball glass filled with fresh ice and top with 2-3oz of cold ginger beer. Stir gently once. The warm ginger spice balances beautifully with the sweet peach and bright lemon. Serve with a straw."
         },
         {
             "name": "Cucumber Berry Cooler", 
             "type": "Mocktail",
             "flavor": ["Cooling", "Fruity", "Lightly Tart"],
             "ingredients": ["2-3 Sliced Strawberries", "2 Slices of Cucumber", "0.5oz Lime Juice", "0.5oz Simple Syrup", "Soda Water"],
-            "mix": "Muddle strawberries, cucumber, syrup and lime juice in a shaker. Shake with ice and strain into a glass with ice top with soda water."
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, place 2-3 sliced fresh strawberries and 2 cucumber slices with 0.5oz lime juice and 0.5oz simple syrup. Gently muddle to release fruit juices without pulverizing. Fill with ice and shake for 8-10 seconds. Strain into a collins glass filled with fresh ice and top with 2-3oz of cold soda water. Stir gently and serve with a straw for a refreshing, light, spa-like mocktail."
         },
         {
             "name": "Citrus Smash", 
             "type": "Mocktail",
             "flavor": ["Tangy", "Slightly Sweet", "Sparkling"],
             "ingredients": ["1oz Lemon Juice", "1oz Orange Juice", "0.5oz Simple Syrup", "Soda Water"],
-            "mix": "Shake citrus juices and syrup with ice. Double Strain into a glass with ice, before topping with soda."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "In a shaker, combine 1oz fresh lemon juice, 1oz fresh orange juice, and 0.5oz simple syrup. Fill with ice and shake vigorously for 8-10 seconds. Strain into a highball glass filled with fresh ice using a double strain. Top with 2-3oz of cold soda water and stir gently once. Serve with a straw for a bright, refreshing citrus-forward mocktail."
         },
         {
             "name": "Fake and Coke", 
             "type": "Mocktail",
             "flavor": ["Smoky", "Sweet", "Cola Forward"],
             "ingredients": ["2oz Spiritless", "Coca-Cola"],
-            "mix": "fill a glass with ice, pour in the spiritless and top with cola."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour 2oz of Spiritless (non-alcoholic spirit) into the glass. Top with 4-5oz of cold Coca-Cola and stir gently to combine. The Spiritless adds sophisticated complexity while the cola provides sweetness. Serve with a straw."
         },
         {
             "name": "The Pretender", 
             "type": "Mocktail",
             "flavor": ["Cola", "Citrus Edge", "Herbal Backbone"],
             "ingredients": ["3oz Cold Brew Lap Song Souchong Tea", "1oz Orange Juice", "0.25 Lemon Juice", "4oz Coke"],
-            "mix": "Shake tea and citrus juices with ice. Strain into a chilled glass with ice, top with coke."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "In a shaker, combine 3oz cold brewed Lapsang Souchong tea (cooled), 1oz fresh orange juice, and 0.25oz fresh lemon juice. Fill with ice and shake for 8-10 seconds. Strain into a highball glass filled with fresh ice and top with 3-4oz of cold Coca-Cola. Stir gently to blend the smoky tea with the citrus and cola. Serve with a straw."
         },
         {
             "name": "Martinez", 
             "type": "Cocktail", 
             "flavor": ["Herbal", "Lightly Sweet", "Rich", "Floral"],
             "ingredients": ["1.5oz Gin", "1.5oz Sweet Vermouth", "0.25oz Maraschino Liquour", "2 Dashes Orange Bitters"],
-            "mix": "Stir all ingredients with ice, Strain inot a chilled glass."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a mixing glass filled with ice, combine 1.5oz gin, 1.5oz sweet vermouth, 0.25oz maraschino liqueur, and 2 dashes of orange bitters. Stir continuously for about 30 seconds until very cold and well-diluted. Strain into a chilled rocks glass filled with one large ice cube. Serve slowly to savor the herbal and floral complexity."
         },
         {
             "name": "El Presidente", 
             "type": "Cocktail",
             "flavor": ["Crisp", "Dry", "Lightly Fruity"], 
             "ingredients": ["1.5oz White Rum", "0.75oz Dry Vermouth", "0.25oz Orange Curacao", "1 Barspoon Grenadine"],
-            "mix": "Stir with ice till chilled, strain into chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a mixing glass filled with ice, combine 1.5oz white rum, 0.75oz dry vermouth, 0.25oz orange curaçao, and 1 barspoon grenadine. Stir for about 30 seconds until very well chilled. Strain into a chilled coupe glass using a fine double strain. Serve up as a sophisticated, balanced rum aperitif."
         },
         {
             "name": "Bijou",
             "type": "Cocktail",
             "flavor": ["Rich", "Intense", "Herbal", "Bitter Depth"],
             "ingredients": ["1oz Gin", "1oz Green Chartreuse", "1oz Sweet Vermouth", "1 Dash Orange Bitters"],
-            "mix": "Stir all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a mixing glass filled with ice, combine 1oz gin, 1oz green Chartreuse, 1oz sweet vermouth, and 1 dash of orange bitters. Stir continuously for about 30-40 seconds until very cold and well-integrated. Strain into a rocks glass filled with one large ice cube. The equal-parts spirit blend creates a complex, herbal jewel of a cocktail."
         },
         {
             "name": "Hanky Panky",
             "type": "Cocktail",
             "flavor": ["Rich", "Bitter - Sweet", "Minty on Finish"],
             "ingredients": ["1.5oz Gin", "1.5oz Sweet Vermouth", "0.25oz Fernet Branca"],
-            "mix": "Stir all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a mixing glass filled with ice, combine 1.5oz gin, 1.5oz sweet vermouth, and 0.25oz Fernet-Branca. Stir continuously for about 30 seconds until very cold and well-chilled. Strain into a rocks glass filled with one large ice cube. The Fernet-Branca adds a unique minty, herbal finish to this sophisticated cocktail."
         },
         {
             "name": "Hot Buttered Rum",
             "type": "Cocktail",
             "flavor": ["Sweet", "Buttery", "Spiced", "Warming"],
-            "ingredients": ["2oz Dark Rum", "1 Tbsp Butter", "1 Tbsp Brown Sugar", "0.25oz Simple Syrup", "Hot Water", "Nutmeg"],
-            "mix": "In a mug, combine butter, brown sugar, and simple syrup. Pour hot water over and stir to combine. Add rum and stir again. Garnish with nutmeg."
+            "ingredients": ["2oz Dark Rum", "1 Tbsp Butter", "1 Tbsp Brown Sugar", "0.25oz Simple Syrup", "Hot Water"],
+            "garnish": ["Nutmeg"],
+            "glass": "Mug",
+            "mix": "In a warm mug, muddle 1 tablespoon of butter, 1 tablespoon brown sugar, and 0.25oz simple syrup together until the sugar dissolves. Pour 6-8oz of hot water (just below boiling) into the mug and stir well to combine. Add 2oz of dark rum and stir gently. The heat will warm all the ingredients together. Top with a generous pinch of freshly grated nutmeg and serve immediately."
         },
         {
             "name": "Sidecar",
             "type": "Cocktail",
             "flavor": ["Tart", "Strong", "Citrusy", "Silky Finish"],
             "ingredients": ["2oz Cognac", "1oz Triple Sec", "0.75oz Simple Syrup"],
+            "garnish": ["Lemon Twist"],
             "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass, garnish with a lemon twist."
         },
         {
@@ -474,181 +606,232 @@
             "type": "Cocktail",
             "flavor": ["Smoky", "Strong", "Hot", "Slightly Sweet"],
             "ingredients": ["2oz Cask Strong Scotch", "2oz Boiling Water", "1 tsp Demerara Sugar"],
-            "mix": "In a heatproof mug, dissolve the sugar in boiling water. In a separate metal cup, heat the scotch until hot but not boiling. Carefully pour the scotch from one cup to the other, creating a stream of liquid that ignites. Pour the flaming liquid back and forth between the two cups several times to mix and cool slightly. Extinguish the flame by covering the cup or blowing it out. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Mug",
+            "mix": "In a heatproof mug, dissolve 1 teaspoon demerara sugar in 2oz of boiling water and set aside. In a separate pre-heated metal cup, carefully heat 2oz cask-strength Scotch until steaming hot but not boiling. Use extreme caution: tilt both the hot scotch cup and water mug at 45 degrees and carefully pour the scotch to the mug in a thin stream, creating a brief blue flame as the alcohols ignite. Once flaming, pour the liquid back into the empty metal cup and repeat this pouring process 2-3 times to mix and cool slightly. Extinguish the flame by covering with a bar spoon or blowing gently. Pour into a warm mug and serve immediately as an impressive spectacle."
         },
         {
             "name": "Last Word",
             "type": "Cocktail",
             "flavor": ["Bright", "Herbal", "Sweetly Tart", "Complex"],
             "ingredients": ["0.75oz Gin", "0.75oz Green Chartreuse", "0.75oz Maraschino Liquour", "0.75oz Lime Juice"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "Shake equal parts (0.75oz each) of gin, green chartreuse, maraschino liqueur, and fresh lime juice with ice for 10-12 seconds. Strain into a chilled coupe glass. All four ingredients are equally important, creating a perfectly balanced herbal and tart cocktail. Serve up."
         },
         {
             "name": "French 75", 
             "type": "Cocktail",
             "flavor": ["Light", "Citrusy", "Bubbly", "Gin Bite"],
             "ingredients": ["1oz Gin", "0.5oz Lemon Juice", "0.5oz Simple Syrup", "3oz Champagne"],
-            "mix": "Shake gin, lemon juice, and simple syrup with ice until well chilled. Strain into a chilled glass and top with champagne."
+            "garnish": [],
+            "glass": "Champagne Flute",
+            "mix": "Shake 1oz gin, 0.5oz fresh lemon juice, and 0.5oz simple syrup with ice for 8-10 seconds. Strain into a chilled champagne flute and top with 3oz of cold champagne. Stir gently and serve immediately."
         },
         {
             "name": "Rusty Nail",
             "type": "Cocktail",
             "flavor": ["Smoky", "Honeyed", "Simple", "Strong"],
             "ingredients": ["1.5oz Scotch Whisky", "0.75oz Drambuie"],
-            "mix": "Fill a glass with ice, add scotch and drambuie. Stir to combine."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Fill a rocks glass with ice cubes. Pour 1.5oz Scotch whisky and 0.75oz Drambuie into the glass and stir well for about 10 seconds to combine. The honey and herbal notes of Drambuie complement the smoky Scotch beautifully. Serve over ice as a simple, classic aperitif."
         },
         {
             "name": "Rootbeer Rumchata Float",
             "type": "Cocktail",
-            "flavor": ["Creamy", "Spicy", "Wanilla - Rich", "Rootbeer Bliss"],
-            "ingredients": ["2oz Rumchata", "4-6oz Rootbeer", "Vanilla Ice Cream Scoop"],
-            "mix": "Fill a glass with ice, add rumchata and top with rootbeer. Stir gently to combine, then add a scoop of vanilla ice cream on top."
+            "flavor": ["Creamy", "Spicy", "Vanilla - Rich", "Rootbeer Bliss"],
+            "ingredients": ["2oz Rumchata", "4-6oz Rootbeer"],
+            "garnish": ["Vanilla Ice Cream Scoop"],
+            "glass": "Tall Glass",
+            "mix": "Fill a tall glass with ice cubes. Pour 2oz Rumchata and top with 4-6oz cold root beer. Stir gently to combine. Crown the drink with a generous scoop of vanilla ice cream on top. Serve immediately with a straw and long spoon for an indulgent ice cream float experience."
         },
         {
             "name": "Aperol Spritz",
             "type": "Cocktail",
             "flavor": ["Lightly Bittter", "Citrusy", "Bubbly", "Ultra Refreshing"],
-            "ingredients": ["2oz Aperol", "3oz Prosecco", "1oz Soda Water", "Orange Slice"],
-            "mix": "Fill a glass with ice, add aperol and prosecco. Top with soda water and stir gently to combine. Garnish with an orange slice."
+            "ingredients": ["2oz Aperol", "3oz Prosecco", "1oz Soda Water"],
+            "garnish": ["Orange Slice"],
+            "glass": "Wine Glass",
+            "mix": "Fill a large wine glass with ice cubes. Pour in 2oz of Aperol, followed by 3oz of cold prosecco, and top with 1oz of soda water. Stir gently to combine. Garnish with a thin orange slice and serve with a straw."
         },
         {
             "name": "Tequila Sunrise",
             "type": "Cocktail",
             "flavor": ["Sweet", "Citrusy", "Fruity"],
-            "ingredients": ["2oz Tequila", "4oz Orange Juice", "0.5oz Grenadine", "Orange Slice", "Cherry"],
-            "mix": "Fill a glass with ice, add tequila and orange juice. Slowly pour grenadine over the back of a spoon to create a sunrise effect. Garnish with an orange slice and cherry."
+            "ingredients": ["2oz Tequila", "4oz Orange Juice", "0.5oz Grenadine"],
+            "garnish": ["Orange Slice", "Cherry"],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Pour 2oz of tequila and 4oz of fresh orange juice. Slowly pour 0.5oz of grenadine over the back of a bar spoon, allowing it to sink to the bottom and create the sunrise effect. Garnish with an orange slice and cherry, and serve with a straw."
         },
         {
             "name": "Screwdriver",
             "type": "Cocktail",
             "flavor": ["Citrusy", "Simple", "Refreshing"],
             "ingredients": ["2oz Vodka", "4oz Orange Juice"],
-            "mix": "Fill a glass with ice, add vodka and orange juice. Stir gently to combine."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour 2oz vodka and 4oz fresh orange juice. Stir gently for about 5 seconds to combine. Serve with a straw for a classic, simple vodka cocktail that lets quality juices shine."
         },
         {
             "name": "Irish Trash Can",
             "type": "Cocktail",
             "flavor": ["Electric Citrus", "Wildly Sweet"],
             "ingredients": ["0.5oz Vodka", "0.5oz Gin", "0.5oz Rum", "0.5oz Triple Sec", "0.5oz Blue Curacao", "0.5oz Peach Schapps", "Red Bull"],
-            "mix": "Fill a large glass with ice, add all the spirits. Top with red bull and stir gently to combine."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Layer each spirit: 0.5oz each of vodka, gin, rum, triple sec, blue curacao, and peach schnapps. Top with 4-5oz of cold Red Bull. Stir gently but thoroughly to combine all the spirits and energy drink. Serve with a straw for a high-energy party drink."
         },
         {
             "name": "Adios Mother Fucker",
             "type":"Cocktail",
             "flavor": ["Citrusy Bomb"],
-            "ingredients": ["o.5oz Vodka", "0.5oz Rum", "0.5oz Gin", "0.5oz Tequila", "0.5oz Blue Curacao", "2oz Sour Mix", "Sprite"],
-            "mix": "Build in a glass over ice, topping with ice at the end stir to chill and combine."
+            "ingredients": ["0.5oz Vodka", "0.5oz Rum", "0.5oz Gin", "0.5oz Tequila", "0.5oz Blue Curacao", "2oz Sour Mix", "Sprite"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Layer 0.5oz each of vodka, rum, gin, tequila, and blue curacao. Pour 2oz of sour mix into the glass and top with 2-3oz of Sprite. Stir well to combine all spirits, mix, and soda. Serve with a straw for a potent, citrus-forward party cocktail."
         },
         {
             "name": "Dirty Shirley", 
             "type": "Cocktail",
             "flavor": ["Sweet", "Cherry Cola", "Fun Twist"],
-            "ingredients": ["2oz Vodka", "4oz Lemon-Lime Soda", "0.5oz Grenadine", "Maraschino Cherry"],
-            "mix": "Fill a glass with ice, add vodka and soda. Pour grenadine over the back of a spoon to create a layered effect. Garnish with a maraschino cherry."
+            "ingredients": ["2oz Vodka", "4oz Lemon-Lime Soda", "0.5oz Grenadine"],
+            "garnish": ["Maraschino Cherry"],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour 2oz vodka and 4oz cold lemon-lime soda. Slowly pour 0.5oz grenadine over the back of a bar spoon, allowing it to sink to the bottom and gather. Stir gently to combine. Garnish with a maraschino cherry and serve with a straw for a playful, fruity vodka drink."
         },
         {
             "name": "Tunisian Death Drink",
             "type": "Cocktail",
             "flavor": ["Earthy", "Fiery", "Slightly Sweet", "Fruity", "Strong"],
-            "ingredients": ["2oz Boukha", "0.5oz Lemon Juice", "0.5oz Grenadine", "Dash of Harissa", "Mint"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass and garnish with mint."
+            "ingredients": ["2oz Boukha", "0.5oz Lemon Juice", "0.5oz Grenadine", "Dash of Harissa"],
+            "garnish": ["Mint"],
+            "glass": "Rocks Glass",
+            "mix": "In a shaker, combine 2oz Boukha (fig brandy), 0.5oz fresh lemon juice, 0.5oz grenadine, and a dash of harissa spice. Fill with ice and shake vigorously for 10-12 seconds. Strain into a rocks glass filled with fresh ice. Garnish with fresh mint. This fiery, fruity drink from Tunisia packs serious heat from the harissa."
         },
         {
             "name": "Corpse Reviver #2",
             "type": "Cocktail",
             "flavor": ["Bright", "Citrusy", "Slightly Herbal", "Balanced"],
             "ingredients": ["1oz Gin", "1oz Cointreau", "1oz Lillet Blanc", "1oz Lemon Juice", "Dash of Absinthe"],
-            "mix": "Rince a chilled glass with absinthe. Shake all other ingredients with ice until well chilled. Strain into the prepared glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "Rinse a chilled coupe glass with a small splash of absinthe, coating the interior and discarding excess. In a shaker, combine 1oz gin, 1oz Cointreau, 1oz Lillet Blanc, and 1oz fresh lemon juice. Fill with ice and shake vigorously for 10-12 seconds. Strain into the prepared glass using a fine double strain. Serve up for a bright, balanced aromatic cocktail that brings you back from the dead."
         },
         {
             "name": "Smoked Maple Stone", 
             "type": "Cocktail",
             "flavor": ["Sweet", "Sharp", "Smooth"],
             "ingredients": ["2oz Rye Whiskey", "0.5oz Lemon Juice", "0.25oz Orange Juice", "0.5oz Maple Syrup", "2 Dashes Angostura Bitters"],
-            "mix": "Add all ingredients to a shaker with ice, shake hard for about 10-12 seconds. Strain into a chilled glass garnishing with an orange twist."
+            "garnish": ["Orange Twist"],
+            "glass": "Rocks Glass",
+            "mix": "In a shaker, combine 2oz rye whiskey, 0.5oz fresh lemon juice, 0.25oz fresh orange juice, 0.5oz maple syrup, and 2 dashes of Angostura bitters. Fill with ice and shake hard for 10-12 seconds. Strain into a rocks glass filled with one large ice cube. Express the oils from an orange twist over the drink and drop it in. The maple syrup rounds out the rye's spice beautifully."
         },
         {
             "name": "Vieux Carre",
             "type": "Cocktail",
             "flavor": ["Deep", "Spicy", "Rich"],
             "ingredients": ["1oz Rye Whiskey", "1oz Cognac", "1oz Sweet Vermouth", "0.25oz Benedictine", "2 Dashes Peychauds Bitters", "2 Dashes Angostura Bitters"],
-            "mix": "Stir all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a mixing glass filled with ice, combine 1oz rye whiskey, 1oz cognac, 1oz sweet vermouth, 0.25oz Benedictine, 2 dashes Peychaud's bitters, and 2 dashes Angostura bitters. Stir continuously for about 30-40 seconds until very cold and integrated. Strain into a rocks glass filled with one large ice cube. This New Orleans classic balances herbal, spicy, and rich flavors beautifully."
         },
         {
             "name": "Brooklyn",
             "type": "Cocktail",
             "flavor": ["Dry", "Bitter - Sweet", "Complex"],
             "ingredients": ["2oz Rye Whiskey", "0.75oz Dry Vermouth", "0.25oz Maraschino Liquour", "0.25oz Amer Picon or Amaro"],
-            "mix": "Stir all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a mixing glass filled with ice, combine 2oz rye whiskey, 0.75oz dry vermouth, 0.25oz maraschino liqueur, and 0.25oz Amer Picon or amaro. Stir continuously for about 30 seconds until very cold and well-integrated. Strain into a rocks glass filled with one large ice cube. This potent, dry Brooklyn classic balances herbal complexity with spicy, bitter depth."
         },
         {
             "name": "Scofflaw", 
             "type": "Cocktail",
             "flavor": ["Tart", "Crisp"],
             "ingredients": ["1.5oz Rye Whiskey", "1oz Dry Vermouth", "0.75oz Lemon Juice", "0.5oz Grenadine", "2 Dashes Orange Bitters"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 1.5oz rye whiskey, 1oz dry vermouth, 0.75oz fresh lemon juice, 0.5oz grenadine, and 2 dashes of orange bitters. Fill with ice and shake vigorously for 10-12 seconds. Strain into a chilled coupe glass using a fine double strain. Serve up for a tart, crisp, balanced whiskey cocktail with perfect proportions."
         },
         {
             "name": "Iced Caramel Duchess Latte",
             "type": "Tea", 
             "flavor": ["Citrusy", "Floral"],
             "ingredients": ["2 Duchess Grey Tea Bags", "0.5 Cups Water", "0.5-0.75 Cups Steamed Milk", "1 tsp Caramel Syrup"],
-            "mix": "Steep the Duchess Grey for 5min to make it strong. Remove bag then chill the tea. In a glass, Mix caramel syrup to dessolve the syrup. Fill a glass with ice then pour in the cold milk."
+            "garnish": [],
+            "glass": "Tall Glass",
+            "mix": "Steep 2 Duchess Grey tea bags in 4oz of hot water for 5 minutes to create a strong brew. Remove the bags and allow the tea to cool completely. In a tall glass, add 1 teaspoon caramel syrup and pour 4-5oz of cold steamed milk, stirring well to dissolve the syrup. Fill the glass with ice and pour in the cooled tea, creating a beautiful layered iced latte. Stir before drinking."
         },
         {
             "name": "Painkiller", 
             "type": "Cocktail",
             "flavor": ["Creamy", "Tropical", "Rich"],
-            "ingredients": ["2oz Dark Rum", "1oz Cream of Coconut", "4oz Pineapple Juice", "1oz Orange Juice", "Nutmeg"],
-            "mix": "Fill a shaker with ice, add all ingredients except nutmeg. Shake until well chilled, then strain into a glass filled with ice. Garnish with grated nutmeg."
+            "ingredients": ["2oz Dark Rum", "1oz Cream of Coconut", "4oz Pineapple Juice", "1oz Orange Juice"],
+            "garnish": ["Nutmeg"],
+            "glass": "Hurricane Glass",
+            "mix": "Fill a shaker with ice and combine 2oz dark rum, 1oz cream of coconut, 4oz fresh pineapple juice, and 1oz fresh orange juice. Shake vigorously for 12-15 seconds. Strain into a hurricane glass filled with fresh ice. Top with freshly grated nutmeg and serve with a straw."
         },
         {
             "name": "Jungle Bird",
             "type": "Cocktail",
             "flavor": ["Tropical", "Bitter", "Balanced"],
             "ingredients": ["1.5oz Dark Rum", "0.75oz Campari", "1.5oz Pineapple Juice", "0.5oz Simple Syrup"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a glass filled with ice."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a shaker, combine 1.5oz dark rum, 0.75oz Campari, 1.5oz fresh pineapple juice, and 0.5oz simple syrup. Fill with ice and shake vigorously for 10-12 seconds. Strain into a rocks glass filled with fresh ice. The Campari's bitterness balances the tropical pineapple beautifully. Serve with a straw."
         },
         {
             "name": "Americano",
             "type": "Cocktail",
             "flavor": ["Bitter", "Bubbly", "Light"],
-            "ingredients": ["1oz Campari", "1oz Sweet Vermouth", "Soda Water", "Orange Twist"],
-            "mix": "Fill a glass with ice, add campari and vermouth. Top with soda water and stir gently to combine. Garnish with an orange twist."
+            "ingredients": ["1oz Campari", "1oz Sweet Vermouth", "Soda Water"],
+            "garnish": ["Orange Twist"],
+            "glass": "Rocks Glass",
+            "mix": "Fill a rocks glass with ice cubes. Pour 1oz Campari and 1oz sweet vermouth into the glass and stir briefly. Top with 2-3oz of cold soda water and stir gently. Express the oils from an orange twist over the drink and drop it in. This light, herbal aperitif is refreshing and slightly bitter."
         },
         {
             "name": "White Wine Spritzer",
             "type": "Cocktail",
             "flavor": ["Effervescent", "Crisp", "Refreshing"],
-            "ingredients": ["3oz White Wine", "2oz Soda Water", "Lemon or Lime Wedge"],
-            "mix": "Fill a glass with ice, add white wine. Top with soda water and stir gently to combine. Garnish with a lemon or lime wedge."
+            "ingredients": ["3oz White Wine", "2oz Soda Water"],
+            "garnish": ["Lemon or Lime Wedge"],
+            "glass": "Wine Glass",
+            "mix": "Fill a wine glass with ice cubes. Pour 3oz of chilled white wine into the glass. Top with 2oz of cold soda water and stir gently once. Express the oils from a lemon or lime wedge over the drink and drop it in. This light, refreshing spritzer is perfect for a summer day."
         },
         {
             "name": "Hugo Spritz", 
             "type": "Cocktail",
             "flavor": ["Floral","Citrus Fresh", "Delicate"],
-            "ingredients": ["3oz Prosecco", "1oz Elderflower Syrup", "2oz Soda Water", "6-8 Fresh Mint Leaves", "Lime Wedge"],
-            "mix": "Muddle mint leaves and lime wedge in a glass. Fill the glass with ice, add elderflower syrup and prosecco. Top with soda water and stir gently to combine. Garnish with a sprig of mint."
+            "ingredients": ["3oz Prosecco", "1oz Elderflower Syrup", "2oz Soda Water", "6-8 Fresh Mint Leaves"],
+            "garnish": ["Lime Wedge", "Mint Sprig"],
+            "glass": "Wine Glass",
+            "mix": "In a wine glass, place 6-8 fresh mint leaves and gently muddle to bruise without shredding. Fill the glass with ice cubes. Pour 1oz elderflower syrup and 3oz cold prosecco into the glass. Top with 2oz of soda water and stir gently from bottom to top. Garnish with a fresh mint sprig and lime wedge. A delicate, floral Italian aperitif."
         },
         {
             "name": "Penicillin", 
             "type": "Cocktail",
             "flavor": ["Smokey", "Honeyed", "Sharp"],
             "ingredients": ["2oz Blended Scotch", "0.75oz Lemon Juice", "0.75oz Honey - Ginger Syrup", "0.25oz Islay Single Malt Scotch"],
-            "mix": "Shake blended scotch, lemon juice, and honey-ginger syrup with ice until well chilled. Strain into a glass filled with ice. Float the Islay scotch on top by pouring it over the back of a spoon."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a shaker, combine 2oz blended Scotch, 0.75oz fresh lemon juice, and 0.75oz honey-ginger syrup. Fill with ice and shake vigorously for 10-12 seconds. Strain into a rocks glass filled with fresh ice. Slowly float 0.25oz of Islay single malt Scotch over the back of a bar spoon on top. The peaty Islay adds a smoky, medicinal finish to this warming, honeyed drink."
         },
         {
             "name": "Grandmoms Pink Toinic",
             "type": "Cocktail",
             "flavor": ["Sweet", "Citrusy", "Grapefruit"],
-            "ingredients": ["2oz Pink Gin", "4oz Tonic Water", "2 Grapefruit Slices"],
-            "mix": "Fill a glass with ice, add pink gin. Top with tonic water and stir gently to combine. Garnish with grapefruit squeezed slices."
+            "ingredients": ["2oz Pink Gin", "4oz Tonic Water"],
+            "garnish": ["Grapefruit Slices"],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice cubes. Pour 2oz pink gin into the glass. Top with 4oz of tonic water and stir gently to combine. Squeeze a grapefruit slice over the top to release oils and drop it in as garnish. A simple, elegant gin and tonic variation."
         },
         {
             "name": "Blue Lagoon Mule",
             "type": "Cocktail",
             "flavor": ["Bright", "Tropical", "Gingery", "Nutty Depth"],
             "ingredients": ["1.5oz Vodka", "0.5oz Blue Curacao", "0.5oz Lime Juice", "4oz Ginger Beer", "0.5oz Almond Syrup"],
+            "garnish": [],
             "mix": "Fill a glass with ice, add vodka, blue curacao, lime juice, and almond syrup. Top with ginger beer and stir gently to combine."
         },
         {
@@ -656,13 +839,16 @@
             "type": "Cocktail",
             "flavor": ["Elegant", "Floral", "Lightly Tart"],
             "ingredients": ["2oz Gin", "0.5oz Maraschino Liquour", "0.25oz Creme de Violette", "0.75oz Lemon Juice"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "Shake 2oz gin, 0.5oz maraschino liqueur, 0.25oz crème de violette, and 0.75oz fresh lemon juice with ice for 10-12 seconds until well chilled. Strain into a chilled coupe glass. The floral notes from the violet liqueur create a beautiful pale purple hue. Serve up."
         },
         {
             "name": "Midori Sour", 
             "type": "Cocktail",
             "flavor": ["Sweet Melon", "Refreshing Lemon-Lime Tang"],
             "ingredients": ["2oz Midori Melon Liquour", "1oz Lemon Juice", "0.5oz Simple Syrup", "Soda Water"],
+            "garnish": [],
             "mix": "Shake midori, lemon juice, and simple syrup with ice until well chilled. Strain into a glass filled with ice and top with soda water."
         },
         {
@@ -670,84 +856,474 @@
             "type": "Cocktail",
             "flavor": ["Bold", "Silky", "Coffee"],
             "ingredients": ["2oz Vodka", "0.5oz Coffee Liquour", "1oz Fresh Espresso", "0.5oz Simple Syrup"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Martini Glass",
+            "mix": "Brew 1oz of fresh espresso and let cool slightly. Combine 2oz vodka, 0.5oz coffee liqueur, cooled espresso, and 0.5oz simple syrup in a shaker with ice. Shake vigorously for 12-15 seconds until well chilled and frothy. Strain into a chilled martini glass. The creamy foam on top indicates a properly made espresso martini. Serve immediately."
         },
         {
             "name": "White Lady",
             "type": "Cocktail",
             "flavor": ["Smooth", "Citrusy", "Slightly Creamy"],
             "ingredients": ["2oz Gin", "0.75oz Triple Sec", "0.75oz Lemon Juice", "1 Egg White"],
-            "mix": "Shake all ingredients without ice to froth the egg white. Add ice and shake again until well chilled and foamy. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "Dry shake 2oz gin, 0.75oz triple sec, 0.75oz fresh lemon juice, and 1 egg white without ice for 10-12 seconds to froth the egg. Add ice and shake vigorously for another 10-12 seconds until well chilled and creamy. Double strain into a chilled coupe glass and serve immediately."
         },
         {
             "name": "Bee's Knees",
             "type": "Cocktail",
             "flavor": ["Bright", "Golden", "Honey - Sweet"],
             "ingredients": ["2oz Gin", "0.75oz Honey Syrup", "0.75oz Lemon Juice"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "Shake 2oz gin, 0.75oz honey syrup, and 0.75oz fresh lemon juice with ice for 10-12 seconds until well chilled. Strain into a chilled coupe glass and serve immediately. The honey adds a touch of richness to this vintage gin sour."
         },
         {
             "name": "Sidecar",
             "type": "Cocktail",
             "flavor": ["Tart", "Citrusy", "Balanced"],
-            "ingredients": ["2oz Cognac", "0.75oz Triple Sec", "0.75oz Lemon Juice", "Sugar"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass, rimmed with sugar."
+            "ingredients": ["2oz Cognac", "0.75oz Triple Sec", "0.75oz Lemon Juice"],
+            "garnish": ["Sugar Rim"],
+            "glass": "Coupe Glass",
+            "mix": "Rim a chilled coupe glass with coarse sugar. In a shaker, combine 2oz cognac, 0.75oz triple sec, and 0.75oz fresh lemon juice with ice. Shake vigorously for 10-12 seconds until well chilled and strain into the prepared glass."
         },
         {
             "name": "Brandy Smash",
             "type": "Cocktail",
             "flavor": ["Minty", "Refreshing", "Fruity"],
             "ingredients": ["2oz Brandy", "0.75oz Simple Syrup", "0.75oz Lemon Juice", "6-8 Mint Leaves"],
-            "mix": "Muddle mint leaves with simple syrup and lemon juice in a shaker. Add brandy and ice, then shake until well chilled. Strain into a glass filled with ice."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Place 6-8 fresh mint leaves in a mixing glass and gently muddle with 0.75oz simple syrup and 0.75oz fresh lemon juice to release the mint oils. Add 2oz brandy and ice, then shake vigorously for 10-12 seconds. Strain into a rocks glass filled with fresh ice."
         },
         {
             "name": "Stinger", 
             "type": "Cocktail",
             "flavor": ["Smooth", "Minty", "Cooling"],
             "ingredients": ["2oz Brandy", "1oz White Creme de Menthe"],
-            "mix": "Fill a glass with ice, add brandy and creme de menthe. Stir to combine."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Fill a rocks glass with ice. Add 2oz brandy and 1oz white crème de menthe. Stir well for about 20 seconds until the drink is properly chilled and the mint flavor is well integrated."
         },
         {
             "name": "Banana Colada",
             "type": "Cocktail",
             "flavor": ["Tropical", "Creamy", "Fruity"],
-            "ingredients": ["1.5oz White Rum", "1oz Cream of Coconut", "1oz Pineapple Juice", "0.5oz Banana Liqueur", "Pineapple Slice"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a glass filled with ice. Garnish with a pineapple slice."
+            "ingredients": ["1.5oz White Rum", "1oz Cream of Coconut", "1oz Pineapple Juice", "0.5oz Banana Liqueur"],
+            "garnish": ["Pineapple Slice"],
+            "glass": "Hurricane Glass",
+            "mix": "Combine 1.5oz white rum, 1oz cream of coconut, 1oz pineapple juice, and 0.5oz banana liqueur with 0.5 cups of crushed ice in a blender. Blend until smooth and creamy. Pour into a hurricane glass and garnish with a fresh pineapple slice. Serve with a straw."
         },
         {
             "name": "Whisoda",
             "type": "Cocktail",
             "flavor": ["Light", "Citrusy", "Bubbly"],
-            "ingredients": ["2oz Whiskey", "4oz Ginger Ale", "3oz Lemon-Lime Soda", "Lemon or Lime Wedge"],
-            "mix": "Fill a glass with ice, add whiskey. Top with ginger ale and lemon-lime soda, stir gently to combine. Garnish with a lemon or lime wedge."
+            "ingredients": ["2oz Whiskey", "4oz Ginger Ale", "3oz Lemon-Lime Soda"],
+            "garnish": ["Lemon or Lime Wedge"],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Pour 2oz of whiskey over the ice. Top with 4oz of quality ginger ale and 3oz of lemon-lime soda. Stir gently to combine and garnish with a fresh lemon or lime wedge."
         },
         {
             "name": "Elder Sage Elixer",
             "type": "Cocktail",
             "flavor": ["Herbal", "Citrusy", "Mysterious"],
             "ingredients": ["1.5oz Gin", "0.5oz Elderflower Liqueur", "0.5oz Lemon Juice", "0.25oz Honey Syrup", "2 Sage Leaves"],
-            "mix": "Muddle the sage leaves with the lemon juice and honey syrup in a shaker. Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "Gently muddle 2 fresh sage leaves with 0.25oz honey syrup and 0.5oz fresh lemon juice in a mixing glass to release the herbal aroma. Add 1.5oz gin, 0.5oz elderflower liqueur, and ice. Shake vigorously for 10-12 seconds until well chilled. Strain into a chilled coupe glass."
         },
         {
             "name": "Moonlight Draught",
             "type": "Cocktail",
             "flavor": ["Silky", "Floral"],
             "ingredients": ["2oz Gin", "0.25oz Creme de Violette or Lavender Syrup", "0.75oz Lemon Juice", "0.5oz Simple Syrup", "1 Egg White"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "Dry shake 2oz gin, 0.25oz crème de violette or lavender syrup, 0.75oz fresh lemon juice, 0.5oz simple syrup, and 1 egg white without ice for 10-12 seconds to create a silky foam. Add ice and shake vigorously for another 8-10 seconds. Fine strain into a chilled coupe glass for a velvety texture."
         },
         {
             "name": "The Pyromancer",
             "type": "Cocktail",
             "flavor": ["Warm", "Spiced", "Citrusy"],
             "ingredients": ["2oz Spiced Rum", "0.5oz Cinnamon Syrup", "0.5oz Cointreau", "0.75oz Lime Juice", "Dash of Chilli or Ginger Bitters"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a shaker, combine 2oz spiced rum, 0.5oz cinnamon syrup, 0.5oz Cointreau, 0.75oz fresh lime juice, and a dash of chilli or ginger bitters with ice. Shake vigorously for 10-12 seconds until well chilled. Strain into a rocks glass filled with fresh ice and serve immediately."
         },
         {
             "name": "Aether's Breath",
             "type": "Cocktail",
             "flavor": ["Tropical", " Mysterious", "Fruity"],
             "ingredients": ["1.5oz Vodka", "0.5oz Blue Curacao", "0.5oz Coconut Rum", "2oz Pineapple Juice", "0.75oz Lime Juice"],
-            "mix": "Shake all ingredients with ice until well chilled. Strain into a chilled glass."
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. In a shaker, combine 1.5oz vodka, 0.5oz blue curaçao, 0.5oz coconut rum, 2oz fresh pineapple juice, and 0.75oz fresh lime juice with ice. Shake vigorously for 10-12 seconds and strain into the prepared glass. Serve with a straw."
+        },
+        {
+            "name": "Blood of the Archmage",
+            "type": "Cocktail",
+            "flavor": ["Deep", "Rich", "Dark", "Fruity"],
+            "ingredients": ["1oz Brandy", "1oz Sweet Vermouth", "0.5oz Campari", "0.5oz Cherry Liquour"],
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Fill a mixing glass with ice. Add 1oz brandy, 1oz sweet vermouth, 0.5oz Campari, and 0.5oz cherry liqueur. Stir continuously for about 30 seconds until well chilled and combined. Strain into a rocks glass filled with a large ice cube."
+        },
+        {
+            "name": "Bacollins",
+            "type": "Cocktail",
+            "flavor": ["Tart", "Light", "Fizzy", "Fruity"],
+            "ingredients": ["2oz Banana Liquour", "1oz Lemon Juice", "0.5-0.75oz Simple Syrup", "Soda Water"],
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "In a shaker, combine 2oz banana liqueur, 1oz fresh lemon juice, and 0.5-0.75oz simple syrup with ice. Shake for 8-10 seconds until well chilled. Strain into a collins glass filled with fresh ice and slowly top with soda water. Stir gently to combine and serve with a straw."
+        },
+        {
+            "name": "Calamity",
+            "type": "Cocktail",
+            "flavor": ["Bold", "Smokey", "Citrus Spice"],
+            "ingredients": ["1.5oz Bourbon", "0.5oz Mezcal", "0.75oz Lemon Juice", "0.5oz Honey Syrup", "0.25oz Ginger Liquour", "1 Dash Angostura Bitters"],
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Combine 1.5oz bourbon, 0.5oz mezcal, 0.75oz fresh lemon juice, 0.5oz honey syrup, 0.25oz ginger liqueur, and 1 dash of Angostura bitters in a shaker with ice. Shake vigorously for 12-15 seconds until well chilled. Strain into a rocks glass filled with fresh ice for a bold, complex drink."
+        },
+        {
+            "name": "Durin's Folk",
+            "type": "Cocktail",
+            "flavor": ["Deep", "Smokey", "Spiced", "Strong"],
+            "ingredients": ["1.5oz Scotch Whisky", "1.5oz Drambuie", "0.5oz Amaro", "2 dashes of Chocolate or Angostura Bitters"],
+            "garnish": ["Orange Peel"],
+            "glass": "Rocks Glass",
+            "mix": "Pour 1.5oz smoky Scotch whisky, 1.5oz Drambuie, and 0.5oz amaro into a mixing glass filled with ice. Add 2 dashes of chocolate or Angostura bitters and stir for about 30 seconds until well chilled. Strain into a rocks glass filled with a large ice cube. Express an orange peel over the drink and drop it in as garnish."
+        },
+        {
+            "name": "Second Breakfast",
+            "type": "Cocktail",
+            "flavor": ["Warm", "Spiced", "Apple Sweet"],
+            "ingredients": ["1.5oz Spiced Rum", "0.5oz Apple Jack", "0.5oz Honey Syrup", "0.5oz Lemon Juice", "A Dash of Cinnamon", "Hard Apple Cider"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "In a shaker, combine 1.5oz spiced rum, 0.5oz Apple Jack, 0.5oz honey syrup, 0.5oz fresh lemon juice, and a pinch of cinnamon with ice. Shake vigorously for 10-12 seconds. Strain into a highball glass filled with fresh ice and top with chilled hard apple cider. Stir gently and serve."
+        },
+        {
+            "name": "The Grey Wanderer",
+            "type": "Cocktail",
+            "flavor": ["Smokey", "Herbal", "Mysterious"],
+            "ingredients": ["2oz Smoky Scotch", "0.5oz Drambuie", "0.25oz Green Chartreuse", "Dash of Angostura Bitters"],
+            "garnish": ["Lemon Twist"],
+            "glass": "Rocks Glass",
+            "mix": "In a mixing glass filled with ice, combine 2oz smoky Scotch, 0.5oz Drambuie, 0.25oz green Chartreuse, and a dash of Angostura bitters. Stir continuously for about 30 seconds until well chilled. Strain into a rocks glass filled with a large ice cube and garnish with a lemon twist."
+        },
+        {
+            "name": "The Riddle Of Men",
+            "type": "Cocktail",
+            "flavor": ["Complex", "Bitter Sweet", "Quietly Powerful"],
+            "ingredients": ["1.5oz Rye Whiskey", "0.75 Sweet Vermouth", "0.5oz Amaro", "0.25oz Honey Syrup", "2 Dashes Orange Bitters"],
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Pour 1.5oz rye whiskey, 0.75oz sweet vermouth, 0.5oz amaro, 0.25oz honey syrup, and 2 dashes of orange bitters into a mixing glass filled with ice. Stir continuously for about 30 seconds until well chilled and the honey is fully integrated. Strain into a rocks glass filled with a large ice cube."
+        },
+        {
+            "name": "Elven Grace",
+            "type": "Cocktail",
+            "flavor": ["Lightly Floral", "Honeyed", "Luminous"],
+            "ingredients": ["1.5oz Gin", "0.5oz Elderflower Liqueur", "0.5oz Dry Vermouth", "0.25oz Honey Syrup", "0.75oz Lemon Juice", "Dash of Absinthe"],
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "Rinse a chilled coupe glass with a small amount of absinthe and discard excess. In a shaker, combine 1.5oz gin, 0.5oz elderflower liqueur, 0.5oz dry vermouth, 0.25oz honey syrup, and 0.75oz fresh lemon juice with ice. Shake vigorously for 10-12 seconds until well chilled. Strain into the prepared coupe glass for an elegant, floral aperitif."
+        },
+        {
+            "name": "Candy Cane Vodka",
+            "type": "Infused Spirit",
+            "flavor": ["Sweet", "Peppermint", "Alcoholic"],
+            "ingredients": ["Candy Canes", "Vodka"],
+            "garnish": [],
+            "mix": "Put a ratio of candy canes and vodka into a jar and keep in a cool dark place for at least 24hr."
+        },
+        {
+            "name": "Candy Cane Martini",
+            "type": "Cocktail",
+            "flavor": ["Peppermint", "Sweet", "Smooth"],
+            "ingredients": ["2oz Vanilla Vodka", "0.5oz Cream", "0.75oz Candy Cane Syrup"],
+            "garnish": ["Vanilla Frosting", "Crushed Candy Canes"],
+            "glass": "Coupe Glass",
+            "mix": "Rim a chilled coupe glass with vanilla frosting and crushed candy canes. In a shaker, combine 2oz vanilla vodka, 0.5oz cream, and 0.75oz candy cane syrup with ice. Shake vigorously for 8-10 seconds until well chilled and creamy. Strain into the prepared glass for a festive treat."
+        },
+        {
+            "name": "Colorado Avalanche",
+            "type": "Cocktail",
+            "flavor": ["Cozy", "Rich", "Smooth"],
+            "ingredients": ["2oz Vodka", "1oz Kahlua", "3oz Half & Half", "3oz Coke"],
+            "garnish": [],
+            "mix": "First add vodka, then Kahlua followed by half & half. Then top with coke gently."
+        },
+        {
+            "name": "Jack Frost Spritz",
+            "type": "Cocktail",
+            "flavor": ["Light", "Bubbly", "Slightly Sweet"],
+            "ingredients": ["1oz Rum", "1oz Blue Curacao", "0.5oz Pineapple Juice", "0.75oz Cream of Coconut", "2-3oz Prosecco", "1-2oz Club Soda"],
+            "garnish": [],
+            "glass": "Wine Glass",
+            "mix": "In a wine glass filled with ice, combine 1oz rum, 1oz blue curacao, 0.5oz pineapple juice, and 0.75oz cream of coconut. Stir gently to combine. Top with 2-3oz of prosecco, then finish with 1-2oz of club soda. Stir gently and serve immediately."
+        },
+        {
+            "name": "Eggnog Whiskey Cola",
+            "type": "Cocktail",
+            "flavor": ["Creamy", "Bold", "Smooth"],
+            "ingredients": ["2oz Whiskey", "2-3oz Eggnog", "0.75oz Grenadine"],
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "Fill a rocks glass with ice. Pour 2oz of whiskey over the ice, then add 2-3oz of chilled eggnog. Slowly pour 0.75oz of grenadine over the back of a bar spoon to create a ruby bottom layer. Stir gently to combine just before drinking."
+        },
+        {
+            "name": "Shark Bite Lemon Drop",
+            "type": "Cocktail",
+            "flavor": ["Slightly Bitter", "Bold", "Strong"],
+            "ingredients": ["2oz Vodka", "0.75oz Blue Curacao", "1oz Lemon Juice", "0.25oz Bitter Aperitif"],
+            "garnish": [],
+            "glass": "Coupe Glass",
+            "mix": "In a shaker, combine 2oz vodka, 0.75oz blue curacao, and 1oz fresh lemon juice with ice. Shake vigorously for 10-12 seconds until well chilled. Strain into a chilled coupe glass. Slowly pour 0.25oz of bitter aperitif over the back of a bar spoon to create the blood-red bite effect at the bottom."
+        },
+        {
+            "name": "Limoncello Spritz",
+            "type": "Cocktail",
+            "flavor": ["Bright Lemon", "Lightly Sweet", "Crisp", "Bubbly"],
+            "ingredients": ["2oz Limoncello", "3oz Prosecco", "1-2oz Club Soda"],
+            "garnish": ["Lemon Wheel"],
+            "glass": "Wine Glass",
+            "mix": "Fill a large wine glass with ice. Pour in 2oz limoncello first. Top with 3oz of cold prosecco poured carefully, then finish with 1-2oz of club soda. Stir gently and garnish with a fresh lemon wheel for a refreshing Italian-style aperitif."
+        },
+        {
+            "name": "Limoncello Iced Tea",
+            "type": "Cocktail",
+            "flavor": ["Bright Lemon", "Tannic Tea", "Summer Porch"],
+            "ingredients": ["2oz Limoncello", "4oz Black Tea", "Lemon Juice"],
+            "garnish": ["Lemon Wedge"],
+            "glass": "Highball Glass",
+            "mix": "Brew black tea and let it cool. Fill a highball glass with ice and pour in 2oz limoncello and 4oz cooled black tea. Stir well to combine and top with a squeeze of fresh lemon juice. Garnish with a lemon wedge and serve."
+        },
+        {
+            "name": "Smaugs Breath",
+            "type": "Cocktail",
+            "flavor": ["Fiery", "Golden", "Warm"],
+            "ingredients": ["1.5oz Gold Rum", "0.5oz Fireball", "0.5oz Lime Juice", "0.5oz Honey Syrup", "Dash of Angostura"],
+            "garnish": [],
+            "glass": "Rocks Glass",
+            "mix": "In a shaker, combine 1.5oz gold rum, 0.5oz Fireball, 0.5oz fresh lime juice, 0.5oz honey syrup, and a dash of Angostura bitters with ice. Shake vigorously for 10-12 seconds until well chilled. Strain into a rocks glass filled with fresh ice for a fiery, warming drink."
+        },
+        {
+            "name": "Crow Concoction",
+            "type": "Cocktail",
+            "flavor": ["Citrus", "Stormy", "Complex"],
+            "ingredients": ["2oz Dark Rum", "1oz Light Rum", "2-3oz Ginger Beer", "0.75oz Lime Juice", "0.75oz Vermouth", "0.5oz Blue Curacao", "4oz Sprite"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Build 2oz dark rum, 1oz light rum, 0.75oz vermouth, 0.5oz blue curacao, 0.75oz fresh lime juice, and 4oz sprite. Stir well to combine. Using the back of a bar spoon, carefully float 2-3oz of ginger beer over the drink to create a dramatic layered effect."
+        },
+        {
+            "name": "Raven Rum",
+            "type": "Cocktail",
+            "flavor": ["Dark", "Cozy", "Appley"],
+            "ingredients": ["2oz Dark Rum", "2oz Apple Cider", "1oz Lemon Juice", "0.5oz Cinnamon Syrup", "1 Dash Angostura Bitters", "Club Soda"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "In a shaker, combine 2oz dark rum, 2oz apple cider, 1oz fresh lemon juice, 0.5oz cinnamon syrup, and 1 dash of Angostura bitters with ice. Shake vigorously for 10-12 seconds. Strain into a highball glass filled with fresh ice and top with a splash of club soda. Stir gently to combine."
+        },
+        {
+            "name": "Sun Light",
+            "type": "Cocktail",
+            "flavor": ["Citrusy", "Sweet", "Light"],
+            "ingredients": ["2oz Tequila", "0.5oz Grenadine", "Orange Juice"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Pour 2oz of tequila and top with fresh orange juice, leaving about 1 inch of space at the top. Slowly pour 0.5oz of grenadine over the back of a bar spoon to create a sunset effect, letting it settle at the bottom for a beautiful layered appearance."
+        },
+        {
+            "name": "Golden Orchard",
+            "type": "Cocktail",
+            "flavor": ["Bright", "Herbal"],
+            "ingredients": ["1.5oz Brandy", "0.5oz Triple Sec", "0.5oz Lemon Juice", "3-4 Fresh Mint Leaves", "2-3oz Tonic Water"],
+            "garnish": ["Orange Peel"],
+            "glass": "Rocks Glass",
+            "mix": "Gently muddle 3-4 fresh mint leaves with 0.5oz triple sec in a shaker to release the fresh mint aroma. Add 1.5oz brandy, 0.5oz fresh lemon juice, and ice. Shake briefly for 6-8 seconds to keep the mint intact. Strain into a rocks glass filled with fresh ice and top with 2-3oz of quality tonic water. Express an orange peel over the drink and drop it in."
+        },
+        {
+            "name": "Cauldron Colada",
+            "type": "Cocktail",
+            "flavor": ["Coconutty", "Sweet", "Creamy"],
+            "ingredients": ["2oz Spiced Rum", "2oz Lime Rum", "2oz Coconut Cream", "2oz Heavy Cream", "2oz Pineapple Juice", "1 Cup Crushed Ice"],
+            "garnish": ["Umbrella"],
+            "glass": "Hurricane Glass",
+            "mix": "Combine 2oz spiced rum, 2oz lime rum, 2oz coconut cream, 2oz heavy cream, 2oz pineapple juice, and 1 cup of crushed ice in a blender. Blend until smooth and creamy. Pour into a hurricane glass and garnish with a festive umbrella and a pineapple wedge for a tropical treat."
+        },
+        {
+            "name": "Blue Lagoon",
+            "type": "Cocktail",
+            "flavor": ["Bright", "Light", "Nutty"],
+            "ingredients": ["1.5oz Blue Curacao", "0.75oz Orgeat Syrup", "Water"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Pour 1.5oz blue curacao and 0.75oz orgeat syrup over the ice. Top with cold water to taste, stirring gently to combine all ingredients into a light, tropical drink. The almond notes from the orgeat complement the blue curacao beautifully."
+        },
+        {
+            "name": "The Familiar",
+            "type": "Cocktail",
+            "flavor": ["Tart", "Sweet", "Balanced"],
+            "ingredients": ["1.5oz Vodka", "0.5-0.75oz Lemon Juice", "0.5oz Orange Curacao", "0.75oz Simple Syrup", "Soda Water"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Pour 1.5oz vodka, 0.5-0.75oz fresh lemon juice, 0.5oz orange curacao, and 0.75oz simple syrup. Stir well to combine. Top with cold soda water and stir gently. The building method and soda water keep this drink light and refreshing."
+        },
+        {
+            "name": "Dirtly Coca Cola",
+            "type": "Cocktail",
+            "flavor": ["Sweet Coca Cola with Cherries"],
+            "ingredients": ["2oz Rum", "0.5oz Grenadine", "4-6oz Coca Cola"],
+            "garnish": ["Cherries"],
+            "glass": "Rocks Glass",
+            "mix": "Fill a rocks glass with ice. Pour 2oz of rum over the ice, followed carefully by 0.5oz of grenadine. Top with 4-6oz of cold cola. Drop a cherry into the glass and stir gently to distribute the grenadine throughout. Serve with a straw."
+        },
+        {
+            "name": "Cranberry Mule",
+            "type": "Cocktail",
+            "flavor": ["Tart", "Gingery", "Citrusy", "Bright"],
+            "ingredients": ["2oz Vodka", "2oz Cranberry Juice", "1oz Orange Juice", "0.5oz Lime Juice", "4oz Ginger Beer"],
+            "garnish": [],
+            "glass": "Copper Mug",
+            "mix": "Fill a copper mug with ice. Pour 2oz vodka, 2oz fresh cranberry juice, 1oz fresh orange juice, and 0.5oz fresh lime juice. Top with 4oz of quality ginger beer. Stir gently with a bar spoon to combine all ingredients. Serve with a straw for a refreshing modern mule."
+        },
+        {
+            "name": "Wind on the Mark",
+            "type": "Cocktail",
+            "flavor": ["Zesty", "Hearty", "Grounded"],
+            "ingredients": ["2oz Rye Whiskey", "0.5oz Ginger Liqueur", "Lemon Juice", "Dash of Angostura Bitters", "Ginger Beer"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "In a shaker, combine 2oz rye whiskey, 0.5oz ginger liqueur, 0.5oz fresh lemon juice, and a dash of Angostura bitters with ice. Shake vigorously for 10-12 seconds. Strain into a highball glass filled with fresh ice and top with 4oz of quality ginger beer. Stir gently to combine."
+        },
+        {
+            "name": "Goblin Goop",
+            "type": "Cocktail",
+            "flavor": ["Green", "Blended", "Strange"],
+            "ingredients": ["2oz Vodka", "1.5oz Green Curacao", "0.75oz Lime", "4-5 Mint Leaves", "1oz Heavy Cream", "0.5 Cup Crushed Ice"],
+            "garnish": [],
+            "glass": "Hurricane Glass",
+            "mix": "Combine 2oz vodka, 1.5oz green curacao, 0.75oz fresh lime juice, 4-5 mint leaves, 1oz heavy cream, and 0.5 cup of crushed ice in a blender. Blend until smooth and creamy with a vibrant green color. Pour into a hurricane glass and serve immediately with a straw for a playfully spooky treat."
+        },
+        {
+            "name": "Limoncello",
+            "type": "Infused Spirit",
+            "flavor": ["Bright", "Citrus-Forward", "Refreshing"],
+            "ingredients": ["750ml Vodka (80-100 proof)", "8-10 Lemons", "4-5 Cups Simple Syrup"],
+            "garnish": [],
+            "mix": "Wash lemons, then peel off only the yellow layer. Avoid the bitter white pith its bitter. Place peels in a large jar. Pour the 750ml vodka over the peels. Seal. Store in a cool, dark place and shake every few days. Steep 30 days. Strain out lemon peels and add simple syrup as wanted. Bottle and refrigerate. Let rest 2-4 weeks before drinking."
+        },
+        {
+            "name": "The One Drink",
+            "type": "Cocktail",
+            "flavor": ["Dark", "Bitter", "Commanding"],
+            "ingredients": ["1.5oz Dark Rum", "0.75oz Coffee Liqueur", "0.5oz Fernet-Branca", "0.5oz Cold Brew Concentrate"],
+            "garnish": ["Orange Peel"],
+            "glass": "Rocks Glass",
+            "mix": "Pour 1.5oz dark rum, 0.75oz coffee liqueur, 0.5oz Fernet-Branca, and 0.5oz cold brew concentrate into a mixing glass filled with ice. Stir continuously for about 30 seconds until extremely well chilled. Strain into a rocks glass without ice (or with one large ice cube). Express a wide orange peel over the drink to release the oils and drop it in as a garnish."
+        },
+        {
+            "name": "Moonlight",
+            "type": "Cocktail",
+            "flavor": ["Dark", "Bitter", "Raspberry Forward"],
+            "ingredients": ["2oz Gin", "0.75oz Campari", "0.75oz Raspberry Syrup", "0.5oz Lemon Juice", "2-3 Dashes Orange Bitters"],
+            "garnish": ["Raspberries on a Pick"],
+            "glass": "Martini Glass",
+            "mix": "In a mixing glass filled with ice, combine 2oz gin, 0.75oz Campari, 0.75oz raspberry syrup, 0.5oz fresh lemon juice, and 2-3 dashes of orange bitters. Stir continuously for about 30 seconds until well chilled. Strain into a chilled martini glass and garnish with fresh raspberries on a cocktail pick."
+        },
+        {
+            "name": "The White Monster",
+            "type": "Cocktail",
+            "flavor": ["Crisp", "Citrusy", "Lightly Sweet"],
+            "ingredients": ["6oz Light Beer", "4oz White Monster", "1oz Vodka", "0.5oz Fresh Lime Juice"],
+            "garnish": [],
+            "glass": "Tall Glass",
+            "mix": "Fill a tall glass with ice. Pour 1oz vodka and 0.5oz fresh lime juice over the ice. Slowly pour 6oz of light beer and 4oz of white energy drink, stirring gently as you pour to combine all ingredients smoothly without excessive foam."
+        },
+        {
+            "name": "Devils Kettle",
+            "type": "Cocktail",
+            "flavor": ["Warm", "Electric", "Citrus", "Rich"],
+            "ingredients": ["2oz Blackberry Jack Daniels", "0.5oz Triple Sec", "0.5oz Blackberry Brandy", "Dash of Angostura Bitters"],
+            "garnish": ["Blackberries on a Pick"],
+            "glass": "Rocks Glass",
+            "mix": "Fill a rocks glass with ice cubes. Pour 2oz of blackberry Jack Daniels, 0.5oz triple sec, 0.5oz blackberry brandy, and a dash of Angostura bitters over the ice. Stir well for about 20 seconds until all flavors are combined. Garnish with fresh blackberries on a cocktail pick."
+        },
+        {
+            "name": "Elderflower Tonic",
+            "type": "Cocktail",
+            "flavor": ["Flowery", "Herbal", "Balanced"],
+            "ingredients": ["1.5oz Gin", "1.5oz Elderflower Liqueur", "1 Can Elderflower Tonic"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Pour 1.5oz of chilled gin followed by 1.5oz of elderflower liqueur. Top with one can of cold elderflower tonic water, pouring gently to preserve carbonation. Stir gently and serve immediately."
+        },
+        {
+            "name": "My Preciousss",
+            "type": "Cocktail",
+            "flavor": ["Tropical", "Glittering", "Slippery"],
+            "ingredients": ["1oz Coconut Rum", "1oz Banana Liqueur", "0.5oz Blue Curacao", "2oz Pineapple Juice", "0.5oz Lime Juice"],
+            "garnish": ["Lime Twist"],
+            "glass": "Hurricane Glass",
+            "mix": "In a shaker, combine 1oz coconut rum, 1oz banana liqueur, 0.5oz blue curacao, 2oz fresh pineapple juice, and 0.5oz fresh lime juice with ice. Shake vigorously for 10-12 seconds until well chilled. Strain into a hurricane glass filled with fresh ice and garnish with a lime twist."
+        },
+        {
+            "name": "Frog Fizz",
+            "type": "Cocktail",
+            "flavor": ["Creamy", "Herbal", "Foamy"],
+            "ingredients": ["2oz Gin", "0.5oz Green Curacao", "0.5oz Elderflower Liqueur", "1 Egg White", "0.5oz Lemon Juice", "Soda Water"],
+            "garnish": [],
+            "glass": "Collins Glass",
+            "mix": "Dry shake 2oz gin, 0.5oz green curacao, 0.5oz elderflower liqueur, 0.5oz fresh lemon juice, and 1 egg white without ice for 10-12 seconds to create a creamy foam. Add ice and shake vigorously for another 8-10 seconds. Strain into a collins glass filled with fresh ice and top with cold soda water. Stir gently and serve with a straw."
+        },
+        {
+            "name": "High Noon Tea",
+            "type": "Cocktail",
+            "flavor": ["Black Tea", "Apple Cider", "Warm Maple Syrup", "Crisp Apple Slices"],
+            "ingredients": ["3 Black Tea Bags", "4 Cups Water", "0.25 Cup Pure Maple Syrup", "2 Cups Apple Cider", "1 Medium Red Apple Thinly Sliced"],
+            "garnish": [],
+            "glass": "Pitcher/Punch Bowl",
+            "mix": "Bring 4 cups of water to a boil and pour into a heat-proof pitcher. Add 3 black tea bags and 0.25 cup of pure maple syrup. Let steep for 5-7 minutes, then remove tea bags. Refrigerate for at least 4 hours until well chilled. Before serving, add 2 cups of apple cider and thin slices from 1 medium red apple. Stir gently to combine and serve over ice in punch glasses."
+        },
+        {
+            "name": "Herbal Tower",
+            "type": "Cocktail",
+            "flavor": ["Herbal", "Crisp", "Sweet"],
+            "ingredients": ["2oz Gin", "1.5oz Elderflower Liqueur", "0.5oz Lavender Simple Syrup", "1 Can Elderflower Tonic", "0.5oz Lime Juice", "4-6 Mint Leaves"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Gently muddle 4-6 fresh mint leaves, 0.5oz fresh lime juice, and 0.5oz lavender simple syrup in the bottom of a highball glass. Fill with ice and pour in 2oz gin and 1.5oz elderflower liqueur. Top with one can of cold elderflower tonic water, pouring gently to preserve carbonation. Stir gently and serve with a straw."
+        },
+        {
+            "name": "Cuba Azul",
+            "type": "Cocktail",
+            "flavor": ["Bright Cola and Citrus with a Splash of Tropical Sweetness"],
+            "ingredients": ["2oz White Rum", "0.5oz Blue Curacao", "0.5oz Fresh Lime Juice", "Coca-Cola to Top"],
+            "garnish": [],
+            "glass": "Highball Glass",
+            "mix": "Fill a highball glass with ice. Pour 2oz of white rum and 0.5oz of blue curacao over the ice. Add 0.5oz of fresh lime juice and stir gently. Top with cold cola and stir gently to combine all ingredients, creating a vibrant blue and caramel layered effect."
+        },
+        {
+            "name": "Dirty Grinch Sprite",
+            "type": "Cocktail",
+            "flavor": ["Foamy", "Sweet", "Vanilla"],
+            "ingredients": ["2oz Vanilla Vodka", "1oz Midori", "1 Can Sprite", "Vanilla Cold Foam"],
+            "garnish": [],
+            "glass": "Tall Glass",
+            "mix": "Fill a tall glass with ice. Pour 2oz vanilla vodka and 1oz Midori melon liqueur over the ice. Top with one can of cold Sprite and stir gently. Crown the drink with a generous dollop of vanilla cold foam on top for a festive seasonal effect."
+        },
+        {
+            "name": "Italian Greyhound",
+            "type": "Cocktail",
+            "flavor": ["Bright Grapefruit", "Sweet Lemon", "Lightly Bitter"],
+            "ingredients": ["1.5oz Vodka", "1oz Limoncello", "2oz Grapefruit Juice", "3oz Prosecco or Soda Water"],
+            "garnish": [],
+            "glass": "Wine Glass",
+            "mix": "Fill a wine glass with ice. Pour 1.5oz vodka, 1oz limoncello, and 2oz fresh grapefruit juice over the ice. Stir gently to combine. Top with 3oz of cold prosecco or soda water poured carefully to preserve carbonation. Stir very gently for a bright, refreshing aperitif."
         }
     ]
 }
